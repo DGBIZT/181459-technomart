@@ -1,0 +1,36 @@
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+
+  font-family: "symbols-technomart";
+  src: url("../fonts/symbols-technomart.woff") format("woff"),
+       url("../fonts/symbols-technomart.woff2") format("woff2");
+}
+body {
+	font-family: "Cuprum", "PT Sans", "symbols-technomart";
+	font-size: 14px;
+	color: #000000;
+}
+.web-shop {
+	font-family: "PT Sans";
+	font-size: 13px;
+	line-height: 24px;
+	color: #000000;
+}
+.heading-three {
+	font-style: normal;
+	font-size: 21px;
+	line-height: 18px;
+	color: #e9292a;
+}
+.info {
+	font-style: italic;
+	font-size: 16px;
+	line-height: 23px;
+	color: #ee3643;
+}
+.foot-breadcrumbs{
+	font-size: 18px;
+	line-height: 24px;
+	color: #ffd180;
+}
