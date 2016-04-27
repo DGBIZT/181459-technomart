@@ -7,7 +7,7 @@
   </head>
   <body>
 	<header class="main-header">
-		<div class="conteiner">
+		<div class="container">
 			<div class="user-block">
 				<div class="logotype">
 						<a href="#">Техномарт</a>
@@ -22,6 +22,7 @@
 					<li><a href="#">Оформить заказ</a></li>	
 				</ul>	
 			</div>
+			<div class="nav-header">
 			<div class="info">
 				<p>Интернет-магазин строительных 
 				матерьялов и инструментов для ремонта </p>
@@ -49,6 +50,7 @@
 				</ul>
 			</nav>
 		</div>
+		</div>
 	</header>
 	<main class="container">
 		<nav class="breadcrumbs"> <!-- -навигация по сайту-->
@@ -59,31 +61,49 @@
 				<li>Перфораторы</li>
 			</ul>
 		</nav>
-		<h1 class="heading-one">перфораторы</h1>
+		<div class="heading">
+			<h1 class="heading-one">перфораторы</h1>
+		</div>
 		<div class="filter">
-			<span class="filter-one">Фильтр:</span>
-			<h4 class="heading-four-catalog">цена:</h4>
+			<div class="one-filter">
+				<span class="filter-one">Фильтр:</span>
+			</div>
+			<div class="price-catalog">
+				<span class="heading-price-catalog">цена:</span>
+			</div>
 			<form action="#" method="get">
-				<input type="range" min="0" max="30000" step="500" value="0" >
-				<input type="number" min="0" max="30000" step="500" value="0"> - 
-				<input type="number" min="0" max="30000" step="500" value="0">
+				<div class="range">
+					<input type="range" min="0" max="30000" step="500" value="0" >
+				</div>
+				<div class="number-left">
+					<input type="number" min="0" max="30000" step="500" value="0">
+				</div>	- 
+				<div class="number-right">
+					<input type="number" min="0" max="30000" step="500" value="0">
+				</div>
 			<hr>
-			<h4 class="heading-four-catalog">производители:</h4>
-			<div class="producer">
-				<select name="producer" size="5" multiple>	
-					<option value="Bosch"> bosch</option>
-					<option value="ИНТЕРСКОЛ"> интерскол</option> 
-					<option value="MAKITA"> makita </option>
-					<option value="DEWALT"> dewalt </option>
-					<option value="HITACHI"> hitachi </option>
-			</select>
+			<div class="producers">
+				<div class="producers-catalog">
+					<span class="heading-price-catalog">производители:</span>
+				</div>
+				<div class="producers-multiple">
+					<select name="producer" size="5" multiple>	
+						<option value="Bosch"> bosch</option>
+						<option value="ИНТЕРСКОЛ"> интерскол</option> 
+						<option value="MAKITA"> makita </option>
+						<option value="DEWALT"> dewalt </option>
+						<option value="HITACHI"> hitachi </option>
+					</select>
+				</div>
 			</div>
 			<hr>
-			<h4 class="heading-four-catalog">питание:</h4>
+			<div class="food-catalog">
+			<span class="heading-four-catalog">питание:</span>
+			</div>
 			<div class="supply">
-				<label><input type="radio" checked name="question-one" value="АККУЬУЛЯТОРНЫЕ"> АККУЬУЛЯТОРНЫЕ
+				<label><input type="radio" checked name="question-one" value="АККУЬУЛЯТОРНЫЕ"> аккуьуляторные
 				</label>
-				<label><input type="radio" name="question-one" value="СЕТЕВЫЕ"> СЕТЕВЫЕ
+				<label><input type="radio" name="question-one" value="СЕТЕВЫЕ"> сетевые
 				</label>
 				<label><input type="submit" value="ПОКАЗАТЬ">
 				</label>
@@ -91,12 +111,14 @@
 			</form>
 		</div>
 		<div class="catalog">
-			<ul>
-				<li class="triage ">СОРТИРОВКА:</li> 
-				<li><a href="#" class="sort">ПО ЦЕНЕ</a></li>
-				<li><a href="#" class="sort">ПО ПО ТИПУ</a></li>
-				<li><a href="#" class="sort">ПО ФУНКЦИОНАЛУ</a></li>
-			</ul>	
+			<div class="triage-line">
+				<ul>
+					<li class="triage">сортировка:</li> 
+					<li><a href="#" class="sort">по цене</a></li>
+					<li><a href="#" class="sort">по типу</a></li>
+					<li><a href="#" class="sort">по функционалу</a></li>
+				</ul>
+			</div>
 			<div class="catalog-item">
 						<img src="img/content/popular/popular-drill4.png" alt="Перфоратор BOSCH BFG 3000">
 						<s>22500 Р.</s>
@@ -151,51 +173,60 @@
 			</div>
 		</div>
 		<div class="say">
-			<h2 class="heading-two-catalog">права слов о перфораторах</h2>
+			<span class="heading-two-catalog">права слов о перфораторах</span>
 			Перфоратор - универсальный строительный инструмент. Предназначен для сверления и дробления отверствий в кирпиче,
 			бетоне и камне. Существуетэлектромеханические и пневматические перфораторы. Современные модели могут выполнять
 			функции дрели, шуруповерта иотбойного молотка. В ассортиментном ряду есть выбор "трехрежимников": в одном устройстве будет совмещены отбойный молоток и ударная дрель.
 		</div>
 	</main>
 	<footer class="main-footer">
-		<h2 class="heading-two-catalog">техномарт</h2>
-		<div class="footer-main-list">
-			<ul>
-				<li><a href="#" class="footer-main">Компания</a></li>
-				<li><a href="#" class="footer-main">Новости</a></li>
-				<li><a href="#" class="footer-main">Каталог</a></li>
-				<li><a href="#" class="footer-main">Доставка</a></li>
-				<li><a href="#" class="footer-main">Контакты</a></li>
-			</ul>
+	<div class="container">
+		<div class="footer-string1 clearfix">
+			<h2 class="heading-two">техномарт</h2>
+			<div class="footer-main-list">
+				<ul>
+					<li><a href="#" class="footer-main">Компания</a></li>
+					<li><a href="#" class="footer-main">Новости</a></li>
+					<li><a href="#" class="footer-main">Каталог</a></li>
+					<li><a href="#" class="footer-main">Доставка</a></li>
+					<li><a href="#" class="footer-main">Контакты</a></li>
+				</ul>
+			</div>
 		</div>
-		<div class="footer-contacts" >
-			г.Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
-			+7 (812) 555-05-55
+		<div class="footer-string2 clearfix">
+			<div class="footer-contacts" >
+				г.Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 
+				+7 (812) 555-05-55
+			</div>
+			<div class="foot-breadcrumbs-list">
+				<ul>
+					<li><a href="#" class="foot-breadcrumbs">Материалы</a></li>
+					<li><a href="#" class="foot-breadcrumbs">Техника</a></li>
+					<li><a href="#" class="foot-breadcrumbs">Инструмент</a></li>
+					<li><a href="#" class="foot-breadcrumbs">Спецпредложения</a></li>
+				</ul>
+			</div>
 		</div>
-		<div class="foot-breadcrumbs-list">
-			<ul>
-				<li ><a href="#" class="foot-breadcrumbs">Материалы</a></li>
-				<li ><a href="#" class="foot-breadcrumbs">Техника</a></li>
-				<li ><a href="#" class="foot-breadcrumbs">Инструмент</a></li>
-				<li ><a href="#" class="foot-breadcrumbs">Спецпредложения</a></li>
-			</ul>
-		</div>	
+		<div class="footer-end">
 		<div class="footer-tehno">
-			2010-2016 Компания &#171; Техномарт &#187; <br>
+			2010-2016 Компания &#171; Техномарт &#187;
 			Все права защищены
 		</div>
 		<div class="footer-social">
-				<p>Давайте дружить!</p>
 				<a class="social-btn social-btn-vk" href="#">Вконтакте</a>
 				<a class="social-btn social-btn-fb" href="#">Фейсбук</a>
 				<a class="social-btn social-btn-inst" href="#">Инстаграм</a>
 			</div>
-		<div class="footer-copyright">
-				<p>Обратная связь:</p>
+			<div class="footer-copyright-one">
+				Обратная связь:
 				<a class="btn" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
-				<p>Разработано:</p>
-				<a class="btn" href="https://htmlacademy.ru">htmlacademy.ru</a>
+			</div>	
+			<div class="footer-copyright-two">	
+				Разработано:
+				<a class="btn" href="https://htmlacademy.ru">htmlacademy.ru</a>	
+			</div>
 		</div>
+		</div>	
 	</footer>
   </body>
 </html>

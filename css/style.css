@@ -10,27 +10,514 @@ body {
 	font-family: "Cuprum", "PT Sans", "symbols-technomart";
 	font-size: 14px;
 	color: #000000;
+	min-width: 1222px;
+	min-height: 3150px;
+	background: #ffffff;
 }
-.web-shop {
-	font-family: "PT Sans";
-	font-size: 13px;
-	line-height: 24px;
-	color: #000000;
+.main-header {
+	background: orange; /* для построение сеток, в дальнейшем удалить*/
+	margin-bottom: 48px;
 }
-.heading-three {
-	font-style: normal;
-	font-size: 21px;
-	line-height: 18px;
-	color: #e9292a;
+.container {
+	background: grey; /* для построение сеток, в дальнейшем удалить*/
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;	
+}
+.clearfix:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+.user-block {
+	background: red; /* для построение сеток, в дальнейшем удалить*/
+	width: 940px;
+}
+.logotype {
+	background: #ee3643;
+	float: left;
+	width: 220px;
+	height: 47px;
+	display: inline-block;
+}
+.search {
+	display: inline-block;
+}
+.nav-header {
+	background: #f1f5f7;
+	width: auto;
+	height: 320;
+	text-align: center;
 }
 .info {
-	font-style: italic;
-	font-size: 16px;
-	line-height: 23px;
-	color: #ee3643;
+	background: red; /* для построение сеток, в дальнейшем удалить*/
+	width: 300px;
+	height: 71px;
+	display: inline-block;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 39px;
 }
-.foot-breadcrumbs{
-	font-size: 18px;
-	line-height: 24px;
-	color: #ffd180;
+.phone {
+	background: red; /* для построение сеток, в дальнейшем удалить*/
+	width: 269px;
+	height: 71px;
+	display: inline-block;
+	float: left;
+	margin-right: 70px;
+	margin-bottom: 39px;
+}
+.user-activ{
+	background: red; /* для построение сеток, в дальнейшем удалить*/
+	width: 281px;
+	height: 71px;
+	display: inline-block;
+	float: right;
+	margin-bottom: 39px;
+}
+.entry {
+	background: #ffffff;
+	padding: 14.5px 45px;
+	display: inline-block;
+	float: left;
+}
+.registry {
+	background: #ffffff;
+	padding: 14.5px 41px;
+	display: inline-block;
+	float: right;
+	
+}
+.main-navigation {
+	background: red; /* для построение сеток, в дальнейшем удалить*/
+	width: auto;
+	height: 60px;
+	clear: both;
+	margin-bottom: 60px;
+	text-align: left;
+}
+.slide {
+	background: #ffffff;
+	width: auto;
+	height: 462px;
+	
+}
+.slide1 {
+	background: red; /* для построение сеток, в дальнейшем удалить*/
+	float: left;
+	width: 620px;
+	height: 409px;
+}
+.slide-material {
+	background: #f6b22d;  
+	width: 300px;
+	height: 123px;
+	display: inline-block;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.slide-tool {
+	background: #4aafde;  
+	width: 300px;
+	height: 123px;
+	display: inline-block;
+	float: left;
+	margin-right: 0px;
+	
+}
+.slide-techno {
+	background-image: url("../img/content/slider/image1.png"); 
+	width: 620px;
+	height: 266px;
+	display: inline-block;
+	margin: 0px;
+}
+.slide2 {
+	background: red; /* для построение сеток, в дальнейшем удалить*/
+	width: auto;
+	height: 409px;
+}
+.slide-perforator {
+	background: #cc79d1;  
+	width: 300px;
+	height: 123px;
+	display: inline-block;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 0px;	
+}
+.slide-discount {
+	background: #85d179;  
+	width: 300px;
+	height: 123px;
+	display: inline-block;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 0px;
+}
+.slide-delivery {
+	background: #f6b22d;  
+	width: 300px;
+	height: 123px;
+	display: inline-block;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 0px;
+} 
+.pops-goods {
+	background: #f7f3ec;
+	width: auto;
+	height: 89px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.pops-goods-head {
+	display: inline-block;
+	float: left;
+	margin-left: 23px;
+	margin-top: 15px;
+}
+.pops-goods-all {
+	display: inline-block;
+	float: right;
+	background: #ee3643;
+	border-radius: 5px;
+	margin-right: 25px;
+	margin-top: 25px;
+	padding-left: 60.5px;
+	padding-right: 60.5px;
+	padding-top: 11px;
+	padding-bottom: 11px;
+}
+.catalog-pops {
+	background: red; /* для построение сеток, в дальнейшем удалить*/
+	width: auto;
+	height: 318px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.catalog-pops .catalog-loaded {
+	background: #ffffff;
+	border: 2px solid #e5e5e5;
+	display: inline-block;
+	float: left;
+	width: 216px;
+	height: 314px;
+	margin-right: 20px;
+}
+.catalog-loaded:nth-child(2) {
+	padding-top: 30px;
+	height: 284px;
+}
+.catalog-loaded:nth-child(3) {
+	padding-top: 19px;
+	height: 295px;
+}
+.catalog-loaded:nth-child(4) {
+	margin-right: 0px;
+	padding-top: 30px;
+	height: 284px;
+}
+.pops-producers {
+	background: #f7f3ec;
+	width: auto;
+	height: 89px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.pops-producers-head {
+	display: inline-block;
+	float: left;
+	margin-left: 23px;
+	margin-top: 15px;
+}
+.pops-producers-all {
+	display: inline-block;
+	float: right;
+	background: #ee3643;
+	border-radius: 5px;
+	margin-right: 25px;
+	margin-top: 25px;
+	padding-left: 74.5px;
+	padding-right: 74.5px;
+	padding-top: 11px;
+	padding-bottom: 11px;
+}
+.producers-img {
+	background: red; /* для построение сеток, в дальнейшем удалить*/
+	width: auto;
+	height: 310px;
+	text-align: center;
+	padding-bottom: 86px;
+}
+.producers-img-label {
+	background: #ffffff;
+	border: 2px solid #e5e5e5;
+	width: 216px;
+	height: 141px;
+	display:inline-block;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	
+}
+.producers-img-label:nth-child(4){
+	margin-right: 0px;
+	
+}
+.producers-img-label:nth-child(5){
+	margin-bottom: 0px;
+}
+.producers-img-label:nth-child(6){
+	margin-bottom: 0px;
+}
+.producers-img-label:nth-child(7){
+	margin-bottom: 0px;
+}
+.producers-img-label:nth-child(8){
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.service {
+	background: #f2f6f8;
+	width: auto;
+	height: 522px;
+}
+.service-client {
+	background: red; /* для построение сеток, в дальнейшем удалить*/
+	width: 400px;
+	height: 110px;
+	margin-bottom: 70px;
+}
+.heading-service {
+	padding-top: 57px;
+}
+.web-shop {
+	padding-top: 5px;
+	
+}
+.service-menu {
+	display: inline-block;
+	float: left;
+	width: 240px;
+	margin-right: 80px;
+}
+.service-delivery {
+	display: inline-block;
+	float: left;
+	width: 301px;
+	height: 184px;
+}
+.company {
+	background: #ffffff;
+	width: auto;
+	min-height: 536;
+}
+.head-company {
+	background: red; /* для построение сеток, в дальнейшем удалить*/
+	width: 560px;
+	height: 400px;
+	display: inlin-block;
+	float: left;
+}
+.contact {
+	background: red; /* для построение сеток, в дальнейшем удалить*/
+	width: 300px;
+	height: 400px;
+	display: inline-block;
+	float: right;
+}
+.footer-string1 {
+	background: green; /* для построение сеток, в дальнейшем удалить*/
+	width: auto;
+	height: 90px;
+}
+.heading-two {
+	display: inline-block;
+	float: left;
+	margin-right: 160px;
+}
+.footer-main-list {
+	display: inline-block;
+	float: left;
+}
+.footer-string2 {
+	background: red; /* для построение сеток, в дальнейшем удалить*/
+	width: auto;
+	height: 90px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+.footer-contacts {
+	display: inline-block;
+	float: left;
+	margin-right: 160px;
+}
+.foot-breadcrumbs-list {
+	display: inline-block;
+	float: left;
+}
+.footer-end {
+	background: green; /* для построение сеток, в дальнейшем удалить*/
+	width: auto;
+	height: 107px;
+}
+.footer-tehno {
+	background: red; /* для построение сеток, в дальнейшем удалить*/
+	display: inline-block;
+	float: left;
+	width: 240px;
+	margin-right: 20px;
+}
+.footer-social {
+	background: red; /* для построение сеток, в дальнейшем удалить*/
+	display: inline-block;
+	float: right;
+	width: 200px;
+	margin-left: 20px;
+}
+.footer-copyright-one {
+	background: red; /* для построение сеток, в дальнейшем удалить*/
+	display: inline-block;
+	float: right;
+	width: 200px;
+	margin-left: 20px;
+}
+.footer-copyright-two {
+	background: red; /* для построение сеток, в дальнейшем удалить*/
+	display: inline-block;
+	float: right;
+	width: 200px;
+	margin-right: 0px;
+	margin-left: 20px;
+}
+/* catalog.html*/
+.breadcrumbs {
+	background: red; /* для построение сеток, в дальнейшем удалить*/
+	width: auto;
+	height: 60px;
+}
+.heading {
+	background: #f2f6f8;
+	width: auto;
+	height: 89px;
+	margin-bottom: 20px;
+}
+.heading-one {
+	
+}
+.filter {
+	background: red; /* для построение сеток, в дальнейшем удалить*/
+	width: 220px;
+	height: 750px;
+	float: left;
+}
+.one-filter {
+	background: #f7f3ec;
+	width: auto;
+	height: 38px;
+}
+.price-catalog {
+	background: #ffffff; /* для построение сеток, в дальнейшем удалить*/
+	width: auto;
+	height: 56px;
+}
+.range {
+	background: #f7f3ec;
+	width: auto;
+	height: 80px;
+	margin-bottom: 20px; 
+}
+.number-left {
+	background: #f7f3ec;
+	width: 95px;
+	height: 38px;
+	display: inline-block;
+	float: left;
+}
+.number-right {
+	background: #f7f3ec;
+	width: 95px;
+	height: 38px;
+	display: inline-block;
+	float: right;
+	margin-bottom: 25px;
+}
+hr {
+	clear: both;
+}
+.producers {
+	background: #ffffff; /* для построение сеток, в дальнейшем удалить*/
+	width: auto;
+	height: 146px;
+	
+}
+.producers-catalog {
+
+}
+.producers-multiple {
+
+}
+.food-catalog {
+	
+}
+.supply {
+
+}
+.catalog {
+	background: red; /* для построение сеток, в дальнейшем удалить*/
+	width: 700px;
+	height: 1142px;
+	float: right;
+	margin-left: 20px;
+}
+.triage-line {
+	background: #f7f3ec;
+	width: auto;
+	height: 38px;
+}
+ul{
+ margin-top: 0px;
+}
+.catalog-item {
+	background: #ffffff;
+	width: 220px;
+	height: 318px;
+	display: inline-block;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	vertical-align: bottom;
+}
+.catalog-item-alter {
+	background: #ffffff;
+	width: 220px;
+	height: 318px;
+	display: inline-block;
+	float: left;
+	margin-right: 0px;
+}
+.catalog-item:nth-child(7) {
+	margin-right: 0px;
+}
+.catalog-item:nth-child(10) {
+	margin-right: 0px;
+}
+.pl-item {
+	clear: both;
+}
+.pli-link {
+	display: inline-block;
+	float: left;
+}
+.say {
+	background: #f2f6f8; /* для построение сеток, в дальнейшем удалить*/
+	width: auto;
+	height: 261px;
+	clear: both;
 }
