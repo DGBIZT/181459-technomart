@@ -510,7 +510,8 @@ ul{
 }
 .pl-item {
 	clear: both;
-}
+
+	}
 .pli-link {
 	display: inline-block;
 	float: left;
