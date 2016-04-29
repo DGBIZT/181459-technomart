@@ -7,11 +7,10 @@
        url("../fonts/symbols-technomart.woff2") format("woff2");
 }
 body {
-	font-family: "Cuprum", "PT Sans", "symbols-technomart";
+	font-family: 'PT Sans', sans-serif;
+	font-family: 'Cuprum', sans-serif;
 	font-size: 14px;
 	color: #000000;
-	min-width: 1222px;
-	min-height: 3150px;
 	background: #ffffff;
 }
 .main-header {
@@ -46,13 +45,11 @@ body {
 .nav-header {
 	background: #f1f5f7;
 	width: auto;
-	height: 320;
 	text-align: center;
 }
 .info {
 	background: red; /* для построение сеток, в дальнейшем удалить*/
 	width: 300px;
-	height: 71px;
 	display: inline-block;
 	float: left;
 	margin-right: 20px;
@@ -61,7 +58,6 @@ body {
 .phone {
 	background: red; /* для построение сеток, в дальнейшем удалить*/
 	width: 269px;
-	height: 71px;
 	display: inline-block;
 	float: left;
 	margin-right: 70px;
@@ -70,7 +66,6 @@ body {
 .user-activ{
 	background: red; /* для построение сеток, в дальнейшем удалить*/
 	width: 281px;
-	height: 71px;
 	display: inline-block;
 	float: right;
 	margin-bottom: 39px;
@@ -91,7 +86,6 @@ body {
 .main-navigation {
 	background: red; /* для построение сеток, в дальнейшем удалить*/
 	width: auto;
-	height: 60px;
 	clear: both;
 	margin-bottom: 60px;
 	text-align: left;
@@ -99,20 +93,18 @@ body {
 .slide {
 	background: #ffffff;
 	width: auto;
-	height: 462px;
 	
 }
 .slide1 {
-	background: red; /* для построение сеток, в дальнейшем удалить*/
+	background: green; /* для построение сеток, в дальнейшем удалить*/
 	float: left;
 	width: 620px;
-	height: 409px;
 }
 .slide-material {
 	background: #f6b22d;  
 	width: 300px;
 	height: 123px;
-	display: inline-block;
+	display: block;
 	float: left;
 	margin-right: 20px;
 	margin-bottom: 20px;
@@ -121,52 +113,49 @@ body {
 	background: #4aafde;  
 	width: 300px;
 	height: 123px;
-	display: inline-block;
-	float: left;
+	display: block;
+	float: right;
 	margin-right: 0px;
 	
 }
+.slide-techno img {
+	width: 620px; 
+	height: 266px;
+}
 .slide-techno {
-	background-image: url("../img/content/slider/image1.png"); 
+	background: url("../img/content/slider/image1.jpg") no-repeat;
 	width: 620px;
 	height: 266px;
-	display: inline-block;
-	margin: 0px;
+	display: block;
+	margin-top: 143px;
+	
 }
 .slide2 {
 	background: red; /* для построение сеток, в дальнейшем удалить*/
-	width: auto;
-	height: 409px;
+	width: 300px;
+	float: right;
+	
 }
 .slide-perforator {
 	background: #cc79d1;  
 	width: 300px;
 	height: 123px;
-	display: inline-block;
-	margin-top: 0px;
-	margin-bottom: 20px;
-	margin-left: 20px;
-	margin-right: 0px;	
+	display: block;
+	margin: 0px 0px 20px 0px	
 }
 .slide-discount {
 	background: #85d179;  
 	width: 300px;
 	height: 123px;
-	display: inline-block;
-	margin-top: 0px;
-	margin-bottom: 20px;
-	margin-left: 20px;
-	margin-right: 0px;
+	display: block;
+	margin: 0px 0px 20px 0px;
 }
 .slide-delivery {
 	background: #f6b22d;  
 	width: 300px;
 	height: 123px;
-	display: inline-block;
-	margin-top: 0px;
-	margin-bottom: 20px;
-	margin-left: 20px;
-	margin-right: 0px;
+	display: block;
+	margin: 0px;
 } 
 .pops-goods {
 	background: #f7f3ec;
@@ -196,47 +185,41 @@ body {
 .catalog-pops {
 	background: red; /* для построение сеток, в дальнейшем удалить*/
 	width: auto;
-	height: 318px;
 	text-align: center;
 	margin-bottom: 20px;
 }
 .catalog-pops .catalog-loaded {
 	background: #ffffff;
 	border: 2px solid #e5e5e5;
-	display: inline-block;
+	display: block;
 	float: left;
 	width: 216px;
-	height: 314px;
 	margin-right: 20px;
 }
 .catalog-loaded:nth-child(2) {
 	padding-top: 30px;
-	height: 284px;
 }
 .catalog-loaded:nth-child(3) {
 	padding-top: 19px;
-	height: 295px;
 }
 .catalog-loaded:nth-child(4) {
 	margin-right: 0px;
 	padding-top: 30px;
-	height: 284px;
 }
 .pops-producers {
 	background: #f7f3ec;
 	width: auto;
-	height: 89px;
 	text-align: center;
 	margin-bottom: 20px;
 }
 .pops-producers-head {
-	display: inline-block;
+	display: block;
 	float: left;
 	margin-left: 23px;
 	margin-top: 15px;
 }
 .pops-producers-all {
-	display: inline-block;
+	display: block;
 	float: right;
 	background: #ee3643;
 	border-radius: 5px;
@@ -247,23 +230,23 @@ body {
 	padding-top: 11px;
 	padding-bottom: 11px;
 }
+.producers-img-label img {
+	padding-top: 20px;
+}
 .producers-img {
 	background: red; /* для построение сеток, в дальнейшем удалить*/
 	width: auto;
-	height: 310px;
 	text-align: center;
-	padding-bottom: 86px;
 }
 .producers-img-label {
 	background: #ffffff;
 	border: 2px solid #e5e5e5;
 	width: 216px;
 	height: 141px;
-	display:inline-block;
+	display:block;
 	float: left;
 	margin-right: 20px;
 	margin-bottom: 20px;
-	
 }
 .producers-img-label:nth-child(4){
 	margin-right: 0px;
@@ -285,112 +268,101 @@ body {
 .service {
 	background: #f2f6f8;
 	width: auto;
-	height: 522px;
 }
 .service-client {
 	background: red; /* для построение сеток, в дальнейшем удалить*/
 	width: 400px;
-	height: 110px;
-	margin-bottom: 70px;
 }
 .heading-service {
-	padding-top: 57px;
 }
 .web-shop {
 	padding-top: 5px;
 	
 }
 .service-menu {
-	display: inline-block;
+	display: block;
 	float: left;
 	width: 240px;
 	margin-right: 80px;
 }
 .service-delivery {
-	display: inline-block;
+	display: block;
 	float: left;
 	width: 301px;
-	height: 184px;
 }
 .company {
 	background: #ffffff;
 	width: auto;
-	min-height: 536;
 }
 .head-company {
 	background: red; /* для построение сеток, в дальнейшем удалить*/
 	width: 560px;
-	height: 400px;
-	display: inlin-block;
+	display: block;
 	float: left;
 }
 .contact {
 	background: red; /* для построение сеток, в дальнейшем удалить*/
 	width: 300px;
-	height: 400px;
-	display: inline-block;
+	display: block;
 	float: right;
 }
 .footer-string1 {
 	background: green; /* для построение сеток, в дальнейшем удалить*/
 	width: auto;
-	height: 90px;
 }
 .heading-two {
-	display: inline-block;
+	display: block;
 	float: left;
 	margin-right: 160px;
 }
 .footer-main-list {
-	display: inline-block;
+	display: block;
 	float: left;
 }
 .footer-string2 {
 	background: red; /* для построение сеток, в дальнейшем удалить*/
 	width: auto;
-	height: 90px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	
 }
 .footer-contacts {
-	display: inline-block;
+	display: block;
 	float: left;
 	margin-right: 160px;
 }
 .foot-breadcrumbs-list {
-	display: inline-block;
+	display: block;
 	float: left;
 }
 .footer-end {
 	background: green; /* для построение сеток, в дальнейшем удалить*/
 	width: auto;
-	height: 107px;
 }
 .footer-tehno {
 	background: red; /* для построение сеток, в дальнейшем удалить*/
-	display: inline-block;
+	display: block;
 	float: left;
 	width: 240px;
 	margin-right: 20px;
 }
 .footer-social {
 	background: red; /* для построение сеток, в дальнейшем удалить*/
-	display: inline-block;
+	display: block;
 	float: right;
 	width: 200px;
 	margin-left: 20px;
 }
 .footer-copyright-one {
 	background: red; /* для построение сеток, в дальнейшем удалить*/
-	display: inline-block;
+	display: block;
 	float: right;
 	width: 200px;
 	margin-left: 20px;
 }
 .footer-copyright-two {
 	background: red; /* для построение сеток, в дальнейшем удалить*/
-	display: inline-block;
+	display: block;
 	float: right;
 	width: 200px;
 	margin-right: 0px;
@@ -400,61 +372,51 @@ body {
 .breadcrumbs {
 	background: red; /* для построение сеток, в дальнейшем удалить*/
 	width: auto;
-	height: 60px;
 }
 .heading {
 	background: #f2f6f8;
 	width: auto;
-	height: 89px;
 	margin-bottom: 20px;
 }
 .heading-one {
 	
 }
+.filter-catalog {
+background: green; /* для построение сеток, в дальнейшем удалить*/
+	width: auto;
+}
 .filter {
 	background: red; /* для построение сеток, в дальнейшем удалить*/
 	width: 220px;
-	height: 750px;
 	float: left;
 }
 .one-filter {
 	background: #f7f3ec;
 	width: auto;
-	height: 38px;
 }
 .price-catalog {
 	background: #ffffff; /* для построение сеток, в дальнейшем удалить*/
 	width: auto;
-	height: 56px;
 }
 .range {
 	background: #f7f3ec;
 	width: auto;
-	height: 80px;
 	margin-bottom: 20px; 
 }
 .number-left {
 	background: #f7f3ec;
-	width: 95px;
-	height: 38px;
-	display: inline-block;
+	display: block;
 	float: left;
 }
 .number-right {
 	background: #f7f3ec;
-	width: 95px;
-	height: 38px;
-	display: inline-block;
+	display:block;
 	float: right;
 	margin-bottom: 25px;
-}
-hr {
-	clear: both;
 }
 .producers {
 	background: #ffffff; /* для построение сеток, в дальнейшем удалить*/
 	width: auto;
-	height: 146px;
 	
 }
 .producers-catalog {
@@ -472,14 +434,12 @@ hr {
 .catalog {
 	background: red; /* для построение сеток, в дальнейшем удалить*/
 	width: 700px;
-	height: 1142px;
 	float: right;
 	margin-left: 20px;
 }
 .triage-line {
 	background: #f7f3ec;
 	width: auto;
-	height: 38px;
 }
 ul{
  margin-top: 0px;
@@ -487,8 +447,7 @@ ul{
 .catalog-item {
 	background: #ffffff;
 	width: 220px;
-	height: 318px;
-	display: inline-block;
+	display: block;
 	float: left;
 	margin-right: 20px;
 	margin-bottom: 20px;
@@ -497,8 +456,7 @@ ul{
 .catalog-item-alter {
 	background: #ffffff;
 	width: 220px;
-	height: 318px;
-	display: inline-block;
+	display: block;
 	float: left;
 	margin-right: 0px;
 }
@@ -509,16 +467,12 @@ ul{
 	margin-right: 0px;
 }
 .pl-item {
-	clear: both;
-
 	}
 .pli-link {
-	display: inline-block;
+	display: block;
 	float: left;
 }
 .say {
 	background: #f2f6f8; /* для построение сеток, в дальнейшем удалить*/
 	width: auto;
-	height: 261px;
-	clear: both;
 }

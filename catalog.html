@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-	<link href="css/style.css" rel="stylesheet">
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
+	<link href="css/normalize.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Cuprum:400,400italic,700" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet">
   </head>
   <body>
 	<header class="main-header">
 		<div class="container">
 			<div class="user-block">
-				<div class="logotype">
-						<a href="#">Техномарт</a>
-				</div>
+				<a href="#" class="logotype">Техномарт</a>
 				<ul>
 					<li><form class="search">
 						<input type="search" name="search">
@@ -28,7 +29,7 @@
 				матерьялов и инструментов для ремонта </p>
 			</div>
 			<div class="phone">
-				<h3 class="heading-three-catalog">+7 (812) 55-05-55</h3>
+				<span class="heading-three-catalog">+7 (812) 55-05-55</span>
 				г.Санкт-Петербург, ул. Б.Конюшенная, д.19/8
 			</div>
 			<div class="user-activ">
@@ -38,8 +39,7 @@
 					<a href="#">Личный кабинет</a>
 				</form>
 			</div>	
-			<nav class="main-navigation">
-				<ul>
+				<ul class="main-navigation">
 					<li><a href="#">Главная
 					</a></li>
 					<li><a href="#">Компания</a></li>
@@ -49,22 +49,20 @@
 					<li><a href="#">Доставка</a></li>
 					<li><a href="#">Контакеты</a></li>
 				</ul>
-			</nav>
 		</div>
 		</div>
 	</header>
 	<main class="container">
-		<nav class="breadcrumbs"> <!-- -навигация по сайту-->
-			<ul>
+			<ul class="breadcrumbs"> <!-- -навигация по сайту-->
 				<li><a href="#">home</a></li>
 				<li><a href="#">Каталог</a></li>
 				<li><a href="#">Инструмент</a></li>
 				<li>Перфораторы</li>
 			</ul>
-		</nav>
 		<div class="heading">
 			<h1 class="heading-one">перфораторы</h1>
 		</div>
+		<div class="filter-catalog clearfix">
 		<div class="filter">
 			<div class="one-filter">
 				<span class="filter-one">Фильтр:</span>
@@ -173,6 +171,7 @@
 				</ul>
 			</div>
 		</div>
+		</div>
 		<div class="say">
 			<span class="heading-two-catalog">права слов о перфораторах</span>
 			Перфоратор - универсальный строительный инструмент. Предназначен для сверления и дробления отверствий в кирпиче,
@@ -208,7 +207,7 @@
 				</ul>
 			</div>
 		</div>
-		<div class="footer-end">
+		<div class="footer-end clearfix">
 		<div class="footer-tehno">
 			2010-2016 Компания &#171; Техномарт &#187;
 			Все права защищены
