@@ -925,8 +925,7 @@ text-decoration: none;
 }
 .service-client {
 	display: block;
-	background: red; /* для построение сеток, в дальнейшем удалить*/
-	width: 400px;
+	width: 370px;
 	padding-top: 35px;
 	padding-bottom: 50px;
 }
@@ -943,6 +942,7 @@ text-decoration: none;
 	float: left;
 	margin: 0px;
 	padding: 0px;
+	padding-bottom: 125px;
 	list-style: none;
 	display: block;
 	width: 240px;
@@ -956,6 +956,8 @@ text-decoration: none;
 	padding: 14px 20px;
 	color: #ffffff;
 	background: #32425c;
+	box-shadow: inset 0 -1px 0 0 #293449,
+				inset 0 1px 0 0 #405069;
 }
 .service-menu a:hover {
 	color: #ffffff;
@@ -964,24 +966,136 @@ text-decoration: none;
 .service-delivery {
 	display: block;
 	float: left;
-	width: 301px;
+	width: 250px;
 	margin-left: 80px;
+}
+.service-delivery span {
+	display: block;
+	font-size: 13px;
+	line-height: 24px;
+	color: #000000;
+	margin-top: -10px;
+}
+.service-delivery .heading-four {
+	position: relative;
+	display: block;
+	font-size: 36px;
+	line-height: 24px;
+	color: #32425c; 
+}
+.heading-four:before {
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 414px;
+	background: url("../img/decor/car-shadow.png");
+	width: 206px;
+	height: 146px;
+	z-index: 10;
+}
+.heading-four:after {
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 152px;
+	background: url("../img/decor/car-shadow2.png");
+	width: 467px;
+	height: 261px;
+	
 }
 .company {
 	background: #ffffff;
 	width: auto;
+	padding-top: 65px;	
 }
 .head-company {
-	background: red; /* для построение сеток, в дальнейшем удалить*/
-	width: 560px;
+	width: 520px;
 	display: block;
 	float: left;
+	
+}
+.head-company  .heading-company {
+	font-size: 30px;
+	line-height: 24px;
+	color: #000000;
+}
+.head-company p {
+	font-size: 13px;
+	line-height: 24px;
+	color: #000000;
+}
+.head-company .head-list {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.head-list li {
+	position: relative;
+	font-size: 18px;
+	line-height: 20px;
+	padding-left: 35px;
+	padding-bottom: 10px;
+}
+.head-list li:before {
+	content: "";
+	position: absolute;
+	top: 8px;
+	left: 0px;
+	background: url("../img/decor/information/info-line.png") no-repeat;
+	width: 25px;
+	height: 2px;
+}
+.company-info {
+	display: block;
+	float: left;
+	background: #ee3643;
+	border-radius: 5px;
+	margin-right: 25px;
+	margin-top: 25px;
+	padding-left: 47px;
+	padding-right: 47px;
+	padding-top: 11px;
+	padding-bottom: 11px;
+}
+.company-info a {
+	position: relative;
+	font-size: 14px;
+	line-height: 18px;
+	text-decoration: none;
+	color: #ffffff;
 }
 .contact {
-	background: red; /* для построение сеток, в дальнейшем удалить*/
 	width: 300px;
 	display: block;
 	float: right;
+}
+.contact  .heading-contact {
+	font-size: 30px;
+	line-height: 24px;
+	color: #000000;
+}
+.contact p {
+	font-size: 13px;
+	line-height: 24px;
+	color: #000000;
+}
+.contact .company-search {
+	display: block;
+	float: left;
+	background: #ee3643;
+	border-radius: 5px;
+	margin-top: 14px;
+	margin-right: -1px;
+	padding-left: 70.5px;
+	padding-right: 70px;
+	padding-top: 11px;
+	padding-bottom: 11px;
+}
+.company-search a {
+	font-size: 14px;
+	line-height: 18px;
+	text-decoration: none;
+	color: #ffffff;
 }
 .footer-string1 {
 	background: green; /* для построение сеток, в дальнейшем удалить*/
@@ -993,8 +1107,19 @@ text-decoration: none;
 	margin-right: 160px;
 }
 .footer-main-list {
-	display: block;
-	float: left;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.footer-main-list li {
+	display: inline-block;
+}
+.footer-main-list a {
+	
+}
+
+.footer-main-list a {
+	display: inline-block;
 }
 .footer-string2 {
 	background: red; /* для построение сеток, в дальнейшем удалить*/
@@ -1147,7 +1272,6 @@ ul{
 		margin: 0px;
 		padding: 0px;
 		list-style: none;
-
 }
 .pli-link {
 	display: block;
