@@ -7,8 +7,8 @@
        url("../fonts/symbols-technomart.woff2") format("woff2");
 }
 body {
-	font-family: 'PT Sans', sans-serif;
 	font-family: 'Cuprum', sans-serif;
+	font-family: 'PT Sans', sans-serif;
 	font-size: 14px;
 	color: #000000;
 	background: #ffffff;
@@ -312,7 +312,6 @@ body {
 /*  сoздание меню*/
 .top-menu {
 	float: right;
-	width: 720px;
 	height: 42px;
 	margin: 0px;
 	padding: 0px;
@@ -333,7 +332,7 @@ body {
 	font-size: 17px;
 	line-height: 18px;
 }
-input[type="text"] { 
+.search input[type="text"] { 
 	color: #ffffff; 
 	border: none; 
 	outline:none;
@@ -343,7 +342,7 @@ input[type="text"] {
 	background: url("../img/decor/new/.icon-search.png") no-repeat 14px 13px;
 	vertical-align: middle;
 }
-input[type="text"]:hover{
+.search input[type="text"]:hover{
 	color: #ffffff;
 	border: none; 
 	outline:none;
@@ -352,7 +351,7 @@ input[type="text"]:hover{
 	height: 16px;
 	background: #212a3a url("../img/decor/new/.icon-search3.png") no-repeat 14px 13px;
 }
-input[type="text"]:focus {
+.search input[type="text"]:focus {
 	color: #000000;
 	border: none;
 	outline:none;
@@ -361,19 +360,19 @@ input[type="text"]:focus {
 	height: 16px;
 	background: #ffffff url("../img/decor/new/.icon-search-red.png") no-repeat 14px 13px;
 }
-input[type="text"]::-webkit-input-placeholder { /* WebKit browsers */
+.search input[type="text"]::-webkit-input-placeholder { /* WebKit browsers */
    color:    white;
    opacity: 1;
 }
-input[type="text"]:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+.search input[type="text"]:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
    color:    white;
    opacity: 1;
 }
-input[type="text"]::-moz-placeholder { /* Mozilla Firefox 19+ */
+.search input[type="text"]::-moz-placeholder { /* Mozilla Firefox 19+ */
    color:    white;
    opacity: 1;
    }
-input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
+.search input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
    color:    white;
    opacity: 1;
    }
@@ -396,13 +395,12 @@ input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
 	color: #babbbd;
 }
 .top-menu .green a {
-	/*padding: 12px 25px;*/
 	position: block;
 	float: right;
-	padding-left: 39px; 
+	padding-left: 20px; 
 	padding-right: 2.3px;
 	margin-right: 0px;
-	width: 154.5px;
+	width: 154px;
 }
 .top-menu .green a:hover {
 	background: #63a63e;
@@ -445,6 +443,7 @@ input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
 	font-size: 0px;
 }
 .info {
+	font-family: "Cuprum Regular", Italic;
 	width: 200px;
 	float: left;
 	margin: 18px 0px;
@@ -454,6 +453,7 @@ input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
 	margin-left: 60px;
 }
 .phone {
+	font-family: "Cuprum Regular", Regular ;
 	width: 270px;
 	float: left;
 	margin: 35px 70px 0px 0px;
@@ -484,14 +484,14 @@ input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
     height: 19px; 
 }
 .user-activ{
-	width: 281px;
 	display: block;
 	float: right;
 	margin-top: 35px;
-	width: 282px;
+	width: 278px;
 	height: 47px;
 }
 .user-activ a{
+	font-family: "Cuprum Regular", Regular ;
 	text-decoration: none;
 	font-size: 21px;
 	line-height: 18px;
@@ -508,16 +508,16 @@ input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
 	position: relative;
 	background: #ffffff;
 	padding: 14.5px 0px;
-	width: 120px;
+	width: 110px;
 	display: inline-block;
 	float: left;
-	vertical-align: middle;
+	vertical-align: top;
 	text-align: center;
 }
 .user-activ .entry:before {
 	content: "";
 	position: absolute;
-	left: 15px ;
+	left: 5px ;
 	background: url("../img/decor/sprite.png") no-repeat -269px -55px;
 	width: 20px;
     height: 17px;
@@ -538,7 +538,7 @@ input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
 	padding: 14.5px 25px;
 	display: inline-block;
 	float: right;
-	vertical-align: middle;
+	vertical-align: top;
 	text-align: center;
 }
 .main-navigation {
@@ -552,20 +552,19 @@ input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
 }
 .main-navigation li {
 	display: inline-block;
+	vertical-align: top;
 	
 }
 .main-navigation a {
+	font-family: "Cuprum Regular", Regular ;
 	background: #32425c;
 	display: block;
 	font-size: 17px;
 	line-height: 17px;
 	color: white;
 	text-decoration: none;
-	padding: 22px 33px;
+	padding: 22px 29.6px;
 	box-shadow: inset 0 -5px 0 0 #293449;
-}
-.main-navigation li:nth-child() {
-	margin-right: 10px;
 }
 .main-navigation a:hover {
 	background: #293449;
@@ -578,12 +577,15 @@ input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
 	background: #ffffff;
 }
 .slide p {
+	font-family: "Cuprum Bold";
 	font-size: 24px;
 	line-height: 30px;
+	font-weight: Bold; 
 	color: #ffffff;
 	padding-left: 20px;
 }
 .slide a {
+	font-family: "Cuprum Regular", Regular ;
 	font-size: 14px;
 	line-height: 18px;
 	text-decoration: none;
@@ -669,6 +671,7 @@ input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
 	padding-left: 25px;
 }
 .slide-techno .perforator {
+	font-family: "Cuprum Bold";
 	position: absolute;
 	top:-30px;
 	left: 19px;
@@ -697,6 +700,7 @@ input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
 	height: 40px;
 }
 .slide-techno span {
+	font-family: "PT Sans Regular";
 	position: absolute;
 	top: 60px;
 	left: 20px;
@@ -706,12 +710,14 @@ input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
 	position: absolute;
 	top: 200px;
 	left: -3px;
-	padding-left: 45px;
-	padding-right: 45px;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	font-weight: normal;
+	padding: 9px 0px;
 	background: #ee3643;
 	text-transform: uppercase;
+	width: 196px;
+	text-align: center;
+	border-radius: 3px;
+	
 }
 .slide-techno p  a:hover{
 	background: #ca2c37;
@@ -796,6 +802,7 @@ input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
 	float: left;
 }
 .heading-two {
+	font-family: "Cuprum Regular", Regular ;
 	font-size: 30px;
 	line-height: 30px;
 	margin-left: 23px;
@@ -805,15 +812,18 @@ input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
 	text-transform: uppercase;
 }
 .pops-all a {
+	font-family: "Cuprum Regular", Regular ;
 	display: block;
 	float: right;
+	width: 252px;
 	background: #ee3643;
 	border-radius: 5px;
 	margin-right: 25px;
-	padding: 10px 60.5px;
+	padding: 10px 0px;
 	min-width: 50px;
 	min-height: 10px;
 	text-transform: uppercase;
+	text-align: center;
 }
 .pops-all a:hover{
 	background: #ca2c37;
@@ -846,6 +856,7 @@ input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
 .heading-producers {
 	display: block;
 	float: left;
+	font-family: "Cuprum Regular", Regular ;
 	font-size: 30px;
 	line-height: 30px;
 	margin-left: 23px;
@@ -933,19 +944,23 @@ input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
 }
 .service-client {
 	display: block;
-	width: 370px;
+	width: 400px;
 	padding-top: 35px;
 	padding-bottom: 50px;
 }
 .heading-service {
+	font-family: "Cuprum Regular";
 	font-size: 30px;
 	line-height: 24px;
+	font-weight: normal;
 }
 .web-shop {
+	font-family: "PT Sans Regular";
 	font-size: 13px;
 	line-height: 24px;	
 }
 .service-menu {
+	position: relative;
 	display: block;
 	float: left;
 	margin: 0px;
@@ -955,7 +970,18 @@ input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
 	display: block;
 	width: 240px;
 }
+.service-menu:after {
+	content: "";
+	position: absolute;
+	top: -45px;
+	right: 0px;
+	background: url("../img/decor/service/service-shad.png") no-repeat;
+	width: 10px;
+	height: 272px;	
+}
+
 .service-menu a {
+	font-family: "Cuprum Bold";
 	display: block;
 	font-size: 21px;
 	line-height: 30px;
@@ -984,6 +1010,7 @@ input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
 	margin-left: 80px;
 }
 .service-delivery span {
+	font-family: "PT Sans Regular";
 	display: block;
 	font-size: 13px;
 	line-height: 24px;
@@ -991,6 +1018,7 @@ input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
 	margin-top: -10px;
 }
 .service-delivery .heading-four {
+	font-family: "Cuprum Regular";
 	position: relative;
 	display: block;
 	font-size: 36px;
@@ -1020,7 +1048,8 @@ input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
 .company {
 	background: #ffffff;
 	width: auto;
-	padding-top: 65px;	
+	padding-top: 65px;
+	padding-bottom: 52px;
 }
 .head-company {
 	width: 520px;
@@ -1029,26 +1058,37 @@ input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
 	
 }
 .head-company  .heading-company {
+	font-family: "Cuprum Regular";
 	font-size: 30px;
 	line-height: 24px;
 	color: #000000;
 }
 .head-company p {
+	font-family: "PT Sans Regular";
+	display: block;
 	font-size: 13px;
 	line-height: 24px;
 	color: #000000;
+	margin-bottom: 23px;
 }
 .head-company .head-list {
 	margin: 0px;
 	padding: 0px;
 	list-style: none;
+	padding-top: 10px;
+	
 }
 .head-list li {
+	font-family: "Cuprum Regular";
 	position: relative;
 	font-size: 18px;
 	line-height: 20px;
 	padding-left: 35px;
 	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+.head-list li:nth-child(3) {
+	margin-bottom: 9px;
 }
 .head-list li:before {
 	content: "";
@@ -1060,16 +1100,19 @@ input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
 	height: 2px;
 }
 .company-info a{
+	font-family: "Cuprum Regular";
 	display: block;
 	float: left;
 	background: #ee3643;
 	border-radius: 5px;
 	margin-right: 25px;
-	padding: 10px 60.5px;
+	margin-top: 19px;
+	padding: 10px 0px;
 	min-width: 50px;
 	min-height: 10px;
 	text-transform: uppercase;
-	margin-top: 27px;
+	width: 220px;
+	text-align: center;
 }
 .company-info a:hover{
 	background: #ca2c37;
@@ -1089,14 +1132,20 @@ input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
 	float: right;
 }
 .contact  .heading-contact {
+	display: block;
+	font-family: "Cuprum Regular";
 	font-size: 30px;
 	line-height: 24px;
 	color: #000000;
+	margin-bottom: 30px;
 }
 .contact p {
+	display: block;
+	font-family: "PT Sans Regular";
 	font-size: 13px;
 	line-height: 24px;
 	color: #000000;
+	margin-bottom: 30px;
 }
 .company-search a{
 	display: block;
@@ -1104,12 +1153,14 @@ input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
 	background: #ee3643;
 	border-radius: 5px;
 	margin-right: 25px;
-	padding: 10px 61px;
+	padding: 10px 0px;
+	width: 300px;
+	text-align: center;
 	min-width: 50px;
 	min-height: 10px;
 	text-transform: uppercase;
 	margin-right: 0px;
-	margin-top: 16px;
+	margin-top: 35px;
 	margin-bottom: 30px;
 }
 .company-search a {
@@ -1138,16 +1189,17 @@ input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
 	font-size: 0px;
 }
 .logotype2 {
+	font-family: "Cuprum Regular";
 	display: block;
 	float: left;
 	font-size: 30px;
 	line-height: 30px;
+	width: 220px;
+	text-align: center;
 	color: #ffffff;
 	text-transform: uppercase; 
 	padding-top: 17px;
 	padding-bottom:14px;
-	padding-left: 42px;
-	padding-right: 42px;
 	background: #ee3643;
 	margin-right: 175px;
 	box-shadow: 0 5px 0 0 #b52933;
@@ -1170,6 +1222,7 @@ input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
 	margin-right: 0px;
 }
 .footer-main-list a {
+	font-family: "Cuprum Regular";
 	display: block;
 	font-size: 18px;
 	line-height: 24px;
@@ -1187,6 +1240,7 @@ input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
 .footer-string2 {
 }
 .footer-contacts {
+	font-family: "Cuprum Regular";
 	display: block;
 	float: left;
 	font-size: 18px;
@@ -1214,6 +1268,7 @@ input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
 	margin-right: 0px;
 }
 .foot-breadcrumbs-list a {
+	font-family: "Cuprum Regular";
 	display: block;
 	font-size: 18px;
 	line-height: 24px; 
@@ -1229,13 +1284,14 @@ input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
 }
 
 .footer-tehno {
+	font-family: "Cuprum Regular";
 	font-size: 16px;
 	line-height: 18px;
 	color: #ffffff;
 	display: block;
 	float: left;
-	width: 240px;
-	margin-right: 100px;
+	width: 260px;
+	margin-right: 80px;
 	margin-top: 25px;
 	margin-bottom: 25px;
 }
@@ -1272,6 +1328,7 @@ input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
   background: #212a3a url("../img/decor/new/.icon-instagramm.png") no-repeat center; 
 }
 .footer-copyright-one {
+	font-family: "Cuprum Regular";
 	display: block;
 	float: left;
 	width: 150px;
@@ -1282,6 +1339,7 @@ input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
 	color: #ffffff;
 }
 .footer-copyright-one a {
+	font-family: "Cuprum Regular";
 	font-size: 16px;
 	line-height: 18px;
 	color: #ffd180;
@@ -1295,6 +1353,7 @@ input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
 	text-decoration: none;	
 }
 .footer-copyright-two {
+	font-family: "Cuprum Regular";
 	display: block;
 	float: right;
 	width: 150px;
@@ -1306,6 +1365,7 @@ input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
 	color: #ffffff;
 }
 .footer-copyright-two a {
+	font-family: "Cuprum Regular";
 	font-size: 16px;
 	line-height: 18px;
 	color: #ffd180;
@@ -1328,11 +1388,11 @@ input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
 	height: 43px;
 }
 .user-name {
+	position: relative;
 	font-size: 21px;
 	line-height: 18px;
 	color: #000000;
 	float: right;
-	
 }
 .user-name input[type="text"] { 
 	position: relative;
@@ -1342,10 +1402,9 @@ input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
 	padding: 13px 13px 13px 45px;
 	width: 228px;
 	height: 16px;
-	background:  #ffffff url("../img/decor/new/.icon-user.png") no-repeat 14px 13px;
+	background:  #ffffff url("../img/decor/new/.icon-user.png") no-repeat 10px 10px;
 	vertical-align: middle;
 }
-
 .user-name input[type="text"]:hover{
 	color: #000000;
 	border: none; 
@@ -1382,7 +1441,9 @@ input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
    }
   
 .user-activ-name a {
+	font-family: "Cuprum Regular", Regular;
 	display: inline-block;
+	vertical-align: top;
 	font-size: 16px;
 	line-height: 18px;
 	color: #32425c;
@@ -1430,6 +1491,7 @@ input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
 	background: url("../img/decor/new/.icon-home.png") no-repeat ;
 }
 .breadcrumbs a {
+	font-family: "PT Sans Regular", Regular;
 	font-size: 13px;
 	line-height: 18px;
 	text-transform: uppercase;
@@ -1455,6 +1517,9 @@ input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
 	width: 8px;
 	height: 12px;
 }
+.breadcrumbs li:nth-child(1) a:before {
+	display: none;
+}
 .breadcrumbs span {
 	position: relative;
 	font-size: 13px;
@@ -1477,6 +1542,7 @@ input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
 	min-height: 90px;
 }
 .heading-one {
+	font-family: "Cuprum Regular", Regular;
 	display: block;
 	font-size: 30px;
 	line-height: 30px;
@@ -1491,6 +1557,7 @@ input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
 }
 
 .filter-one {
+	font-family: "PT Sans Regular", Regular;
 	display: block;
 	font-size: 13px;
 	line-height: 18px;
@@ -1501,6 +1568,7 @@ input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
 	height: 28px;
 }
 .price-catalog {
+	font-family: "PT Sans Bold", Bold;
 	display: block;
 	font-size: 17px;
 	line-height: 30px;
@@ -1581,6 +1649,9 @@ input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
 	margin-bottom: 25px;
 }
 .number-left {
+	font-family: "PT Sans Regular", Regular;
+	font-size: 17px;
+	line-height: 18px;
 	background: #f7f3ec;
 	display: block;
 	float: left;
@@ -1647,11 +1718,17 @@ input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
 	margin-top: 15px;
 }
 .producers-catalog {
+	font-family: "PT Sans Bold", Bold;
 	font-size: 17px;
 	line-height: 30px;
 	font-weight: bold;
 	text-transform: uppercase;
 	
+}
+.producers-multiple {
+	font-family: "PT Sans Regular", Regular;
+	font-size: 15px;
+	line-height: 20px;
 }
 input[type="checkbox"] {
 	display: none;
@@ -1691,10 +1768,16 @@ input[type="checkbox"]:checked + label:after {
     height: 23px;
 }
 .food-catalog {
+	font-family: "PT Sans Bold", Bold;
 	font-size: 17px;
 	line-height: 30px;
 	font-weight: bold;
 	text-transform: uppercase;
+}
+.supply {
+	font-family: "PT Sans Regular", Regular;
+	font-size: 15px;
+	line-height: 20px;
 }
 input[type="radio"] {
 	display: none;
@@ -1959,12 +2042,20 @@ input[type="radio"]:checked + label::after {
 	height: 168px;
 }
 .catalog-item .title {
+	font-family: "PT Sans Bold" ;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 20px;
 	min-height: 40px;
 	padding: 0 25px;
 	margin-top: 10px;
 	margin-bottom: 15px;
 }
 .catalog-item  .discount {
+	font-family: "PT Sans Bold" ;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 18px;
 	min-height: 20px;
 	margin-top: 15px;
 	margin-bottom: 10px;
@@ -1974,6 +2065,10 @@ input[type="radio"]:checked + label::after {
 .catalog-item  .catalog-price {
 	position: relative;
 	width: 80px;
+	font-family: "PT Sans Bold" ;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 18px;
 	margin: 10px auto;
 	margin-bottom: 20px;
 	padding: 10px 30px;
@@ -2043,4 +2138,199 @@ input[type="radio"]:checked + label::after {
 	line-height: 24px;
 	margin-bottom: 30px;
 	text-transform: uppercase;
+}
+/* Всплывающая форма */
+
+.modal-content {
+	display: none;
+	position: fixed;
+	top: 120px;
+	left: 50%;
+	width: 620px;
+	margin-left: -330px;
+	border-top: 5px solid #ee3643;
+	color: #000000;
+	background: #ffffff url("img/pattern-white.jpg");
+	box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
+	z-index: 15;
+	font-size: 18px;
+	line-height: 18px;
+	font-family: "Cuprum Regular", Regular;
+}
+.modal-content-close {
+	
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 21px;
+	height: 21px;
+	font-size: 0;
+	background-color: #d0d0d0;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+}
+.modal-content-close::before,
+.modal-content-close::after {
+	content: "";
+	position: absolute;
+	top: 9px;
+	left: 1px;
+	width: 19px;
+	height: 3px;
+	background-color: red;
+	border-radius: 1px;
+}
+.modal-content-close::before {
+	transform: rotate(45deg);
+}
+
+.modal-content-close::after {
+	transform: rotate(-45deg);
+}
+.modal-content p {
+	margin: 0;
+	margin-bottom: 14px;
+}
+.modal-content .login-form {
+	margin-top: 30px;
+	margin-bottom: 10px;
+  
+}
+
+.login-form  input[type="text"] {
+	width: 197px;
+	margin: 0;
+	margin-bottom: 10px;
+	padding: 8px 10px;
+	font-size: 13px;
+	line-height: 18px;
+	font-family: "Cuprum Regular", Regular;
+	color: #999999;
+	background-color: #fffffff;
+	border: 2px solid #d7dcde;
+	outline: none;
+}
+
+.login-form div {
+	display: block;
+	float: left;
+	margin-right: 19px;
+	margin-left: 80px;
+	margin-bottom: 10px;
+}
+.login-form div:nth-child(2) {
+	margin-right: 50px;
+	 margin-left: 0px;
+}
+.login-form textarea {
+	width: 437px;
+	margin: 0;
+	padding: 5px 10px;
+	font-size: 13px;
+	line-height: 18px;
+	font-family: "Cuprum Regular", Regular;
+	color: #999999;
+	background-color: #fffffff;
+	border: 2px solid #d7dcde;
+	outline: none;
+	margin-bottom: 30px;
+}
+
+.login-form div:nth-child(4) {
+	padding-top: 35px;
+	padding-bottom: 36px;
+	padding-left: 80px;
+	padding-right: 79px;
+	background: #f1f1f1;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+}
+.login-form .icon-user-name {
+	display: block;
+	margin-bottom: 20px;
+}
+
+.login-form .btn {
+	border: 0px;
+	background: #ee3643;
+	font-size: 14px;
+	line-height: 18px;
+	font-family: "Cuprum Regular", Regular;
+	border-radius: 3px;
+	padding-top: 11px;
+	padding-bottom: 8px;
+	text-transform: uppercase;
+	color: white;
+	width: 461px;
+}
+/* Карта*/
+.modal-content-map {
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -280px;
+	margin-left: -390px;
+	width: 940px;
+	height: 447px;
+	z-index: 16;
+	box-shadow: 0 0 15px 3px #d2d1d2;
+	background: #e9e5dc url("../img/content/map/map1.png") no-repeat;
+}
+.modal-content .goods-basket {
+	position: relative;
+	display: block;
+	font-size: 30px;
+	line-height: 18px;
+	font-family: "Cuprum Regular", Regular;
+	padding-left: 100px;
+	padding-top: 20px;
+	margin-right: 125px;
+	margin-left: 65px;
+	margin-top: 48px;
+	margin-bottom: 56px;
+}
+.modal-content .goods-basket:before {
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: #63a63e url("../img/decor/new/tick.png") no-repeat 14px 15px;
+	width: 64px;
+	height: 64px;
+	border-radius: 50%;
+}
+.modal-content a {
+	display: block;
+	float: left;
+	font-size: 14px;
+	line-height: 18px;
+	font-family: "Cuprum Regular", Regular;
+	padding: 12px 0px;
+	background: #ee3643;
+	border-radius: 3px;
+	margin-right: 20px;
+	margin-left: 80px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+	width: 220px;
+	text-align: center;
+}
+.modal-content a:nth-child(2) {
+	margin-left: 0px;
+}
+.modal-content a:hover {
+	background: #ca2c37;
+}
+.modal-content a:active {
+	background: white;
+	color: black;
+}
+.modal-content div {
+	padding-top: 36px;
+	padding-bottom: 38px;
+	background: #f1f1f1;
 }
