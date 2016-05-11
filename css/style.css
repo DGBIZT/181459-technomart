@@ -1852,10 +1852,10 @@ input[type="radio"]:checked + label::after {
 	margin-right: 80px;
 }
 .triage-line li:nth-child(4) a {
-	margin-right: 60px;
+	margin-right: 25px;
 }
 .triage-line li:nth-child(5) a {
-	margin-right: 22px;
+	margin-right: 20px;
 	border-bottom: none;
 }
 .triage-line li:nth-child(6) a {
