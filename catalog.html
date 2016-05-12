@@ -9,7 +9,7 @@
 	<link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-	<header class="main-header">
+	<header class="main-header clearfix">
 		<div class="container">
 			<div class="user-block">
 				<div class="logotype">
@@ -25,13 +25,17 @@
 					<li class="green"><a href="#">Оформить заказ</a></li>	
 				</ul>	
 			</div>
+		</div>	
+	</header>
+	<header class="main-nav-header">
+		<div class="container">
 			<div class="nav-header clearfix">
 			<div class="info">
 				<p>Интернет-магазин строительных 
 				матерьялов и инструментов для ремонта </p>
 			</div>
 			<div class="phone">
-				<span class="heading-three">+7 (812) 55-05-55</span>
+				<span class="heading-three">+7 (812) 555-05-55</span>
 				г.Санкт-Петербург, ул. Б.Конюшенная, д.19/8
 			</div>
 			<div class="user-activ-name">
@@ -54,9 +58,10 @@
 			</div>
 		</div>
 	</header>
-	<main class="container">
+	<main>
+		<div class="container">
 			<ul class="breadcrumbs"> <!-- -навигация по сайту-->
-				<li><a href="#"><img src="./img/decor/new/icon-home.png" width="15" height="12"></a></li>
+				<li><a href="#"><img src="./img/decor/new/icon-home.png" width="15" height="12" alt=""></a></li>
 				<li><a href="#">Каталог</a></li>
 				<li><a href="#">Инструмент</a></li>
 				<li><span>Перфораторы</span></li>
@@ -70,10 +75,10 @@
 				<span class="price-catalog">цена:</span>
 			<form action="#" method="get">
 				<div class="range">
-					<img class="range-right "src="./img/decor/new/butterfly.png" width="20" height="23">
-					<img class="range-left "src="./img/decor/new/butterfly.png" width="20" height="23">
-					<img class="butterfly-right" src="./img/decor/new/butterfly-dot.png" width="4" height="4">
-					<img class="butterfly-left "src="./img/decor/new/butterfly-dot.png">
+					<img class="range-right" src="./img/decor/new/butterfly.png" width="20" height="23" alt="">
+					<img class="range-left" src="./img/decor/new/butterfly.png" width="20" height="23" alt="">
+					<img class="butterfly-right" src="./img/decor/new/butterfly-dot.png" width="4" height="4" alt="" >
+					<img class="butterfly-left" src="./img/decor/new/butterfly-dot.png" alt="">
 					<hr class="butterfly-black">
 					<hr class="butterfly-green">
 				</div>
@@ -243,13 +248,19 @@
 					<li><a href="#" class="pli-link">следующая</a></li>
 				</ul>
 		</div>
+		</div>
+		</div>
+	</main>
+	<header class="main-say">
+	<div class="container">
 		<div class="say">
 			<span class="heading-two-catalog">права слов о перфораторах</span>
 			Перфоратор - универсальный строительный инструмент. Предназначен для сверления и дробления отверствий в кирпиче,
 			бетоне и камне. Существуетэлектромеханические и пневматические перфораторы. Современные модели могут выполнять
 			функции дрели, шуруповерта иотбойного молотка. В ассортиментном ряду есть выбор "трехрежимников": в одном устройстве будет совмещены отбойный молоток и ударная дрель.
 		</div>
-	</main>
+	</div>	
+	</header>
 	<footer class="main-footer">
 	<div class="container">
 		<div class="footer-string1 clearfix">
@@ -262,8 +273,9 @@
 					<li><a href="#" class="footer-main">Контакты</a></li>
 				</ul>
 		</div>
+	
 		<div class="footer-string2 clearfix">
-			<div class="footer-contacts" >
+			<div class="footer-contacts">
 				г.Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 
 				+7 (812) 555-05-55
 			</div>
@@ -274,8 +286,11 @@
 					<li><a href="#" class="foot-breadcrumbs">Спецпредложения</a></li>
 				</ul>
 		</div>
+		</div>
+	</footer>	
+	<footer class="main-footer-end">
+	<div class="container">	
 		<div class="footer-end clearfix">
-		<div class="container2">
 		<div class="footer-tehno">
 			&#169; 2010-2016 Компания &#171; Техномарт &#187;
 			Все права защищены
@@ -294,14 +309,13 @@
 				<a class="btn" href="https://htmlacademy.ru">htmlacademy.ru</a>	
 			</div>
 		</div>
-		</div>
 		</div>	
 	</footer>
-	<div class="modal-content">
+	<div class="modal-goods">
 		<span class="goods-basket">Товар добален в корзину!</span>
-		<div class="clearfix"><a href="#">оформить заказ</a>
+		<div class="modal-goods-btn clearfix"><a href="#">оформить заказ</a>
 		<a href="#">продолжить покупки</a></div>
-		<button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>	
+		<button class="modal-goods-close" type="button" title="Закрыть">Закрыть</button>	
 	</div>
   </body>
 </html>

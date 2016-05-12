@@ -10,8 +10,7 @@ body {
 	font-family: 'Cuprum', sans-serif;
 	font-family: 'PT Sans', sans-serif;
 	font-size: 14px;
-	color: #000000;
-	background: #ffffff;
+	color: #000000;	
 }
 .sprite {
     background-image: url(../img/decor/sprite.png);
@@ -336,10 +335,29 @@ body {
     height: 62px;
     background-position: -10px -2447px;
 }
-
-
 .main-header {
-	
+	background-color: #293449;	
+}
+.main-nav-header{
+	background: #f1f5f7;
+}
+main {
+	background-color: #ffffff;
+}
+.main-service {
+	background-color: #f1f5f7;
+}
+.main-say {
+	background-color: #f1f5f7;
+}
+.main-company {
+	background-color: #ffffff;	
+}
+.main-footer {
+	background-color: #32425c;
+}
+.main-footer-end{
+	background-color: #293449;
 }
 .container2 {
 	background: #293449;
@@ -353,14 +371,12 @@ body {
 	margin: 0 auto;
 	padding: 0 10px;	
 }
+.user-block {
+}
 .clearfix:after {
 	content: '';
 	display: table;
 	clear: both;
-}
-.user-block {
-	width: auto;
-	background: #293449;
 }
 .logotype {
 	float: left;
@@ -635,7 +651,7 @@ body {
 	list-style: none;
 	font-size: 0px;
 	margin-bottom: 60px;
-	clear: both;
+	float: right;
 	
 }
 .main-navigation li {
@@ -656,6 +672,10 @@ body {
 	text-align:center;
 	box-shadow: inset 0 -5px 0 0 #293449;
 }
+.main-navigation li:nth-child (7) a{
+	margin-right: 0px;
+}
+
 .main-navigation a:hover {
 	background-color: #293449;
 }
@@ -1363,6 +1383,7 @@ body {
 	width: 330px;
 	min-height: 50px;	
 	margin-top: 30px;
+	margin-bottom: 42px;
 	
 }
 .foot-breadcrumbs-list {
@@ -1405,8 +1426,8 @@ body {
 	display: block;
 	float: left;
 	width: 250px;
-	margin-right: 90px;
-	margin-top: 25px;
+	margin-right: 120px;
+	margin-top: 40px;
 	margin-bottom: 25px;
 }
 .footer-social {
@@ -1414,7 +1435,7 @@ body {
 	float: left;
 	width: 200px;
 	margin-left: 20px;
-	margin-top: 20px;
+	margin-top: 37px;
 }
 .social-btn {
   display: inline-block;
@@ -1446,9 +1467,9 @@ body {
 	font-family: "Cuprum";
 	display: block;
 	float: left;
-	width: 150px;
-	margin-left: 30px;
-	margin-top: 25px;
+	width: 135px;
+	margin-left: 60px;
+	margin-top: 38px;
 	font-size: 16px;
 	line-height: 18px;
 	color: #ffffff;
@@ -1471,10 +1492,10 @@ body {
 	font-family: "Cuprum";
 	display: block;
 	float: right;
-	width: 150px;
+	width: 100px;
 	margin-right: 0px;
-	margin-left: 10px;
-	margin-top: 25px;
+	margin-left: 20px;
+	margin-top: 38px;
 	font-size: 16px;
 	line-height: 18px;
 	color: #ffffff;
@@ -2282,21 +2303,21 @@ input[type="radio"]:checked + label::after {
 .modal-content {
 	display: none;
 	position: fixed;
-	top: 120px;
-	left: 50%;
+	top: 1px;
+	left: 1px;
 	width: 620px;
-	margin-left: -330px;
+	transform: translateY(15%) translateX(58.9%);
 	border-top: 5px solid #ee3643;
 	color: #000000;
 	background: #ffffff url("img/pattern-white.jpg");
 	box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
-	z-index: 15;
+	z-index: 25;
 	font-size: 18px;
 	line-height: 18px;
-	font-family: "Cuprum Regular", Regular;
+	font-family: "Cuprum";
+
 }
 .modal-content-close {
-	
 	position: absolute;
 	top: 10px;
 	right: 10px;
@@ -2332,8 +2353,7 @@ input[type="radio"]:checked + label::after {
 }
 .modal-content .login-form {
 	margin-top: 30px;
-	margin-bottom: 10px;
-  
+	margin-bottom: 10px; 
 }
 
 .login-form  input[type="text"] {
@@ -2343,7 +2363,7 @@ input[type="radio"]:checked + label::after {
 	padding: 8px 10px;
 	font-size: 13px;
 	line-height: 18px;
-	font-family: "Cuprum Regular", Regular;
+	font-family: "Cuprum";
 	color: #999999;
 	background-color: #fffffff;
 	border: 2px solid #d7dcde;
@@ -2367,12 +2387,13 @@ input[type="radio"]:checked + label::after {
 	padding: 5px 10px;
 	font-size: 13px;
 	line-height: 18px;
-	font-family: "Cuprum Regular", Regular;
+	font-family: "Cuprum";
 	color: #999999;
 	background-color: #fffffff;
 	border: 2px solid #d7dcde;
 	outline: none;
 	margin-bottom: 30px;
+	resize: none;
 }
 
 .login-form div:nth-child(4) {
@@ -2387,7 +2408,9 @@ input[type="radio"]:checked + label::after {
 }
 .login-form .icon-user-name {
 	display: block;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
+	font-size: 18px;
+	line-height: 18px;
 }
 
 .login-form .btn {
@@ -2395,10 +2418,10 @@ input[type="radio"]:checked + label::after {
 	background: #ee3643;
 	font-size: 14px;
 	line-height: 18px;
-	font-family: "Cuprum Regular", Regular;
+	font-family: "Cuprum";
 	border-radius: 3px;
 	padding-top: 11px;
-	padding-bottom: 8px;
+	padding-bottom: 11px;
 	text-transform: uppercase;
 	color: white;
 	width: 461px;
@@ -2407,30 +2430,75 @@ input[type="radio"]:checked + label::after {
 .modal-content-map {
 	display: none;
 	position: fixed;
-	top: 50%;
-	left: 50%;
-	margin-top: -280px;
-	margin-left: -390px;
+	top: 1px;
+	left: 1px;
+	transform: translateY(15%) translateX(21.9%);
 	width: 940px;
 	height: 447px;
-	z-index: 16;
+	z-index: 25;
 	box-shadow: 0 0 15px 3px #d2d1d2;
 	background: #e9e5dc url("../img/content/map/map1.png") no-repeat;
 }
-.modal-content .goods-basket {
+.modal-goods {
+	display: none ;
+	position: fixed;
+	top: 1px;
+	left: 1px;
+	width: 620px;
+	transform: translateY(15%) translateX(58.9%);
+	border-top: 5px solid #ee3643;
+	color: #000000;
+	background: #ffffff url("img/pattern-white.jpg");
+	box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
+	z-index: 25;
+	font-size: 18px;
+	line-height: 18px;
+	font-family: "Cuprum";
+}
+.modal-goods-close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 21px;
+	height: 21px;
+	font-size: 0;
+	background-color: #d0d0d0;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+}
+.modal-goods-close::before,
+.modal-goods-close::after {
+	content: "";
+	position: absolute;
+	top: 9px;
+	left: 1px;
+	width: 19px;
+	height: 3px;
+	background-color: red;
+	border-radius: 1px;
+}
+.modal-goods-close::before {
+	transform: rotate(45deg);
+}
+
+.modal-goods-close::after {
+	transform: rotate(-45deg);
+}
+.modal-goods .goods-basket {
 	position: relative;
 	display: block;
 	font-size: 30px;
 	line-height: 18px;
-	font-family: "Cuprum Regular", Regular;
+	font-family: "Cuprum";
 	padding-left: 100px;
 	padding-top: 20px;
 	margin-right: 125px;
 	margin-left: 65px;
-	margin-top: 48px;
-	margin-bottom: 56px;
+	margin-top: 56px;
+	margin-bottom: 64px;
 }
-.modal-content .goods-basket:before {
+.modal-goods .goods-basket:before {
 	content: "";
 	position: absolute;
 	top: 0px;
@@ -2440,12 +2508,12 @@ input[type="radio"]:checked + label::after {
 	height: 64px;
 	border-radius: 50%;
 }
-.modal-content a {
+.modal-goods a {
 	display: block;
 	float: left;
 	font-size: 14px;
 	line-height: 18px;
-	font-family: "Cuprum Regular", Regular;
+	font-family: "Cuprum";
 	padding: 12px 0px;
 	background: #ee3643;
 	border-radius: 3px;
@@ -2457,17 +2525,17 @@ input[type="radio"]:checked + label::after {
 	width: 220px;
 	text-align: center;
 }
-.modal-content a:nth-child(2) {
+.modal-goods a:nth-child(2) {
 	margin-left: 0px;
 }
-.modal-content a:hover {
+.modal-goodst a:hover {
 	background: #ca2c37;
 }
-.modal-content a:active {
+.modal-goods a:active {
 	background: white;
 	color: black;
 }
-.modal-content div {
+.modal-goods-btn {
 	padding-top: 36px;
 	padding-bottom: 38px;
 	background: #f1f1f1;

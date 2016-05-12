@@ -9,7 +9,7 @@
 	<link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-	<header class="main-header">
+	<header class="main-header clearfix">
 		<div class="container">
 			<div class="user-block">
 				<div class="logotype">
@@ -25,20 +25,23 @@
 					<li class="green"><a href="#">Оформить заказ</a></li>	
 				</ul>	
 			</div>
+		</div>	
+	</header>
+	<header class="main-nav-header">
+		<div class="container">
 			<div class="nav-header clearfix">
 				<div class="info">
 					<p>Интернет-магазин<br> строительных 
 					матерьялов<br> и инструментов для ремонта </p>
 				</div>
 				<div class="phone">
-					<span class="heading-three">+7 (812) 55-05-55</span>
+					<span class="heading-three">+7 (812) 555-05-55</span>
 					г.Санкт-Петербург, ул. Б.Конюшенная, д.19/8
 				</div>
 				<div class="user-activ clearfix">
 					<a href="#" class="entry">Войти</a>
 					<a href="#" class="registry">Регистрация</a>
 				</div>	
-				
 					<ul class="main-navigation">
 						<li><a href="#">Главная</a></li>
 						<li><a href="#">Компания</a></li>
@@ -51,7 +54,8 @@
 				</div>	
 		</div>
 	</header>
-	<main class="container">
+	<main>
+		<div class="container">
 		<div class="slide clearfix">
 			<div class="slide1 clearfix">
 				<div class="slide-material">
@@ -183,9 +187,13 @@
 				<a class="AEG" href="#"><img src="img/content/brands/AEG.png" width="151" height="96" alt="AEG POWER SOLUTIONS"></a>
 			</div>
 			<div class="producers-img-label">
-				<a class="METABO"href="#"><img src="img/content/brands/Metabo.png" width="204" height="69" alt="METABO WORK.DON'T PLAY"></a>
+				<a class="METABO" href="#"><img src="img/content/brands/Metabo.png" width="204" height="69" alt="METABO WORK.DON'T PLAY"></a>
 			</div>
 		</div>
+		</div>
+	</main>	
+	<header class="main-service">
+	<div class="container">
 		<div class="service clearfix">
 			<div class="service-client">
 				<span class="heading-service">Cервисы</span>
@@ -203,6 +211,10 @@
 				бесплатно! Ведь мы неплохо зарабатываем, поднимая его на ваш этаж!</span>
 			</div>
 		</div>
+	</div>	
+	</header>
+	<header class="main-company">	
+		<div class="container">
 			<div class="company clearfix">
 				<div class="head-company">
 					<span class="heading-company">компания &laquo;техномарт&raquo; </span>
@@ -227,9 +239,10 @@
 					<div class="company-search">
 						<a href="#">заблудились? напишите нам!</a>
 					</div>
-				</dive>
+				</div>
 			</div>
-	</main>
+		</div>	
+	</header>
 	<footer class="main-footer">
 	<div class="container">
 		<div class="footer-string1 clearfix">
@@ -242,8 +255,9 @@
 					<li><a href="#" class="footer-main">Контакты</a></li>
 				</ul>
 		</div>
+	
 		<div class="footer-string2 clearfix">
-			<div class="footer-contacts" >
+			<div class="footer-contacts">
 				г.Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 
 				+7 (812) 555-05-55
 			</div>
@@ -254,8 +268,11 @@
 					<li><a href="#" class="foot-breadcrumbs">Спецпредложения</a></li>
 				</ul>
 		</div>
+		</div>
+	</footer>	
+	<footer class="main-footer-end">
+	<div class="container">	
 		<div class="footer-end clearfix">
-		<div class="container2">
 		<div class="footer-tehno">
 			&#169; 2010-2016 Компания &#171; Техномарт &#187;
 			Все права защищены
@@ -274,7 +291,6 @@
 				<a class="btn" href="https://htmlacademy.ru">htmlacademy.ru</a>	
 			</div>
 		</div>
-		</div>
 		</div>	
 	</footer>
 	 <div class="modal-content">
@@ -285,7 +301,7 @@
 		<div><span class="icon-user-name">Ваш e-mail:</span>
         <input class="icon-email" type="text"  name="e-mail" placeholder="Для отправки ответа"></div>
 		<div><span class="icon-user-name">Текст письма</span>
-		<textarea name="comment" id="comment-field" rows="5" cols="73">В свободной форме</textarea></div>
+		<textarea  name="comment" id="comment-field" rows="6" cols="73">В свободной форме</textarea></div>
         <div><button class="btn" type="submit">Отправить</button></div>
       </form>
     </div>
