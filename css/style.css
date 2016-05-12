@@ -1504,66 +1504,78 @@ body {
 }
 .user-name {
 	position: relative;
+	width: 300px;
+	height: 45px;
+	background-color: white;
 	font-size: 21px;
 	line-height: 18px;
 	color: #000000;
 	float: right;
 }
-.user-name input[type="text"] { 
-	position: relative;
-	color: #ffffff; 
-	border: none; 
-	outline:none;
-	padding: 13px 13px 13px 45px;
-	width: 228px;
-	height: 16px;
-	background:  #ffffff url("../img/decor/new/.icon-user.png") no-repeat 10px 10px;
-	vertical-align: middle;
+.user-name:before {
+	content: "";
+	position: absolute;
+	top: 13px;
+	left: 12px;
+	background: url("../img/decor/sprite.png") no-repeat -10px -2044px;
+	width: 20px;
+    height: 18px;
 }
-.user-name input[type="text"]:hover{
-	color: #000000;
-	border: none; 
-	outline:none;
-	padding: 13px 13px 13px 45px;
-	width: 228px;
-	height: 16px;
-	background: #ffffff url("../img/decor/new/.icon-user2.png") no-repeat 14px 13px;
+.user-name:hover:before {
+	content: "";
+	position: absolute;
+	top: 13px;
+	left: 12px;
+	background: url("../img/decor/sprite.png") no-repeat  -10px -2082px;
+	width: 20px;
+    height: 18px;
 }
-.user-name input[type="text"]:focus {
-	color: #c5c5c5;
-	border: none;
-	outline:none;
-	padding: 13px 13px 13px 45px;
-	width: 228px;
-	height: 16px;
-	background: #ffffff url("../img/decor/new/.icon-user.png") no-repeat 14px 13px;
+.user-name:active:before {
+	content: "";
+	position: absolute;
+	top: 13px;
+	left: 12px;
+	background: url("../img/decor/sprite.png") no-repeat -10px -2044px;
+	width: 20px;
+    height: 18px;
+ } 
+
+.user-name:after {
+	content: "";
+	position: absolute;
+	top: 13px;
+	right: 12px;
+	background: url("../img/decor/sprite.png") no-repeat -10px -1601px;
+	width: 20px;
+    height: 17px;
 }
-.user-name input[type="text"]::-webkit-input-placeholder { /* WebKit browsers */
-   color:    #000000;
-   opacity: 1;
+.user-name:hover:after {
+	content: "";
+	position: absolute;
+	top: 13px;
+	right: 12px;
+	background: url("../img/decor/sprite.png") no-repeat -10px -1564px;
+	width: 20px;
+    height: 17px;
 }
-.user-name input[type="text"]:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-   color:   #000000;
-   opacity: 1;
+.user-name:active:after{
+	content: "";
+	position: absolute;
+	top: 13px;
+	right: 12px;
+	background: url("../img/decor/sprite.png") no-repeat -10px -1601px;
+	width: 20px;
+    height: 17px;
 }
-.user-name input[type="text"]::-moz-placeholder { /* Mozilla Firefox 19+ */
-   color:    #000000;
-   opacity: 1;
-   }
-.user-name input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10+ */
-   color:    #000000;
-   opacity: 1;
-   }
-  
 .user-activ-name a {
-	font-family: "Cuprum Regular", Regular;
+	font-family: "Cuprum";
 	display: inline-block;
 	vertical-align: top;
 	font-size: 16px;
 	line-height: 18px;
 	color: #32425c;
 	margin-top: 10px;
-	margin-left: 20px;
+	margin-left: 5px;
 }
 .user-activ-name a:nth-child(3){
 	margin-left: 0;
@@ -1587,7 +1599,6 @@ body {
 	width: 4px;
 	height: 5px;
 	background: url("../img/decor/new/dot.png") no-repeat;
-	
 }
 .breadcrumbs {
 	padding: 0px;
@@ -1603,10 +1614,10 @@ body {
 .breadcrumbs img {
 	width: 15px;
 	height: 12px;
-	background: url("../img/decor/new/.icon-home.png") no-repeat ;
+	background: url("../img/decor/new/icon-home.png") no-repeat ;
 }
 .breadcrumbs a {
-	font-family: "PT Sans Regular", Regular;
+	font-family: "PT Sans";
 	font-size: 13px;
 	line-height: 18px;
 	text-transform: uppercase;
@@ -1628,9 +1639,9 @@ body {
 	position: absolute;
 	top: 0;
 	left: 15px;
-	background: url("../img/decor/new/.icon-right-min.png") no-repeat;
+	background: url("../img/decor/sprite.png") no-repeat -10px -1811px;
 	width: 8px;
-	height: 12px;
+    height: 12px;
 }
 .breadcrumbs li:nth-child(1) a:before {
 	display: none;
@@ -1647,32 +1658,37 @@ body {
 	position: absolute;
 	top: 0;
 	left: 15px;
-	background: url("../img/decor/new/.icon-right-min.png") no-repeat;
+	background: url("../img/decor/sprite.png") no-repeat -10px -1811px;
 	width: 8px;
-	height: 12px;
+    height: 12px;
 }
 .heading {
 	background: #f2f6f8;
 	margin-bottom: 20px;
-	min-height: 90px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	vertical-align: middle;
+	
+	
 }
 .heading-one {
-	font-family: "Cuprum Regular", Regular;
+	font-family: "Cuprum";
+	color: #32425c;
 	display: block;
 	font-size: 30px;
 	line-height: 30px;
 	text-transform: uppercase;
-	padding-top: 31px;
+	margin-left: 30px;
+	
 }
-.filter-catalog {
-}
+
 .filter {
 	width: 220px;
 	float: left;
 }
 
 .filter-one {
-	font-family: "PT Sans Regular", Regular;
+	font-family: "PT Sans";
 	display: block;
 	font-size: 13px;
 	line-height: 18px;
@@ -1683,7 +1699,7 @@ body {
 	height: 28px;
 }
 .price-catalog {
-	font-family: "PT Sans Bold", Bold;
+	font-family: "PT Sans";
 	display: block;
 	font-size: 17px;
 	line-height: 30px;
@@ -1764,7 +1780,7 @@ body {
 	margin-bottom: 25px;
 }
 .number-left {
-	font-family: "PT Sans Regular", Regular;
+	font-family: "PT Sans";
 	font-size: 17px;
 	line-height: 18px;
 	background: #f7f3ec;
@@ -1788,6 +1804,9 @@ body {
 	border-radius: 2px 2px 2px 2px;
 }
 .number-right {
+	font-family: "PT Sans";
+	font-size: 17px;
+	line-height: 18px;
 	background: #f7f3ec;
 	display:block;
 	float: right;
@@ -1833,7 +1852,7 @@ body {
 	margin-top: 15px;
 }
 .producers-catalog {
-	font-family: "PT Sans Bold", Bold;
+	font-family: "PT Sans";
 	font-size: 17px;
 	line-height: 30px;
 	font-weight: bold;
@@ -1841,7 +1860,7 @@ body {
 	
 }
 .producers-multiple {
-	font-family: "PT Sans Regular", Regular;
+	font-family: "PT Sans";
 	font-size: 15px;
 	line-height: 20px;
 }
@@ -1878,19 +1897,19 @@ input[type="checkbox"]:checked + label:after {
 	border-radius: none;
 	top: -2px;
 	left: 0px;
-	background: url("../img/decor/sprite.png") no-repeat -167px -10px;
+	background: url("../img/decor/sprite.png") no-repeat -10px -1071px;
 	width: 27px;
     height: 23px;
 }
 .food-catalog {
-	font-family: "PT Sans Bold", Bold;
+	font-family: "PT Sans";
 	font-size: 17px;
 	line-height: 30px;
 	font-weight: bold;
 	text-transform: uppercase;
 }
 .supply {
-	font-family: "PT Sans Regular", Regular;
+	font-family: "PT Sans";
 	font-size: 15px;
 	line-height: 20px;
 }
@@ -1912,18 +1931,18 @@ input[type="radio"] + label {
 input[type="radio"] + label:before {
 	content: "";
 	position: absolute;
-	top: 0px;
+	top: -4px;
 	left: 0px;
-	background:  url("../img/decor/sprite.png") no-repeat -10px -55px;
+	background:  url("../img/decor/sprite.png") no-repeat -10px -1247px;
 	width: 25px;
     height: 25px;
 }
 input[type="radio"]:checked + label::after {
 	content: "";
 	position: absolute;
-	top: 0px;
+	top: -4px;
 	left: 0px;
-	background: url("../img/decor/sprite.png") no-repeat -306px -10px;
+	background: url("../img/decor/sprite.png") no-repeat -10px -1157px;
 	width: 25px;
     height: 25px;
 } 
@@ -1941,9 +1960,9 @@ input[type="radio"]:checked + label::after {
 	list-style: none;
 	font-size: 0px;
 	margin-bottom: 20px;
-	height: 40px;
 }
 .triage-line li  {
+	font-family: "PT Sans" ;
 	display: inline-block;
 	font-size: 13px;
 	line-height: 18px;
@@ -1957,6 +1976,7 @@ input[type="radio"]:checked + label::after {
 	margin-left: 20px;
 }
 .triage-line a {
+	font-family: "PT Sans" ;
 	display: block;
 	font-size: 13px;
 	line-height: 18px;
@@ -1977,24 +1997,24 @@ input[type="radio"]:checked + label::after {
 	margin-right: 0px;
 }
 .triage-line .triage-line-up {
-	background: url("../img/decor/sprite.png") no-repeat -41px -122px;
+	background: url("../img/decor/sprite.png") no-repeat -10px -2014px;	
 	width: 11px;
     height: 10px;
 	margin-top: 4px;
 	margin-left: ;
 }
 .triage-line .triage-line-up:hover {
-	background: url("../img/decor/sprite.png") no-repeat -10px -122px;
+	background: url("../img/decor/sprite.png") no-repeat -10px -1984px;
 	width: 11px;
-    height: 10px;
+    height: 10px; 
 }
 .triage-line .triage-line-up:active {
-	background: url("../img/decor/sprite.png") no-repeat -305px -92px;
+	background: url("../img/decor/sprite.png") no-repeat -10px -1954px;
 	width: 11px;
     height: 10px;
 }
 .triage-line .triage-line-down {
-	background: url("../img/decor/sprite.png") no-repeat -100px -55px;
+	background: url("../img/decor/sprite.png") no-repeat -10px -1337px;
 	width: 11px;
     height: 10px;
 	border-bottom: none;
@@ -2003,14 +2023,14 @@ input[type="radio"]:checked + label::after {
 	margin-left: ;
 }
 .triage-line .triage-line-down:hover {
-	background: url("../img/decor/sprite.png") no-repeat -131px -55px;
+	background: url("../img/decor/sprite.png") no-repeat -10px -1367px;
 	width: 11px;
     height: 10px;
 	text-decoration: none;
 	border-bottom: none;
 }
 .triage-line .triage-line-down:active {
-	background: url("../img/decor/sprite.png") no-repeat -120px -255px;
+	background: url("../img/decor/sprite.png") no-repeat -10px -2287px;
 	width: 9px;
     height: 9px;
 }
@@ -2029,6 +2049,7 @@ input[type="radio"]:checked + label::after {
 .catalog-item {
 	position: relative;
 	display: inline-block;
+	vertical-align: top;
 	width: 218px;
 	margin-right: 20px;
 	margin-bottom: 20px;
@@ -2209,8 +2230,10 @@ input[type="radio"]:checked + label::after {
 }
 .pl-item  li{
 	display: inline-block;
+	vertical-align: top;
 }
 .pl-item a {
+	font-family: "PT Sans";
 	display: block;
 	font-size: 13px;
 	line-height: 18px;
@@ -2237,10 +2260,9 @@ input[type="radio"]:checked + label::after {
 .pl-item  a:active {
 	border: 1px solid #ee3643;
 } 
-
-
 .say {
-	background: #f2f6f8; /* для построение сеток, в дальнейшем удалить*/
+	font-family: "PT Sans" ;
+	background: #f2f6f8; 
 	clear: both;
 	font-size: 13px;
 	line-height: 24px;
@@ -2248,6 +2270,7 @@ input[type="radio"]:checked + label::after {
 	padding-bottom: 65px;
 }
 .heading-two-catalog {
+	font-family: "Cuprum" ;
 	display: block;
 	font-size: 30px;
 	line-height: 24px;
