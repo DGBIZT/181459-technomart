@@ -345,7 +345,7 @@ main {
 	background-color: #ffffff;
 }
 .main-service {
-	background-color: #f2f6f8;
+	background-color:  #f2f6f8;
 }
 .main-say {
 	background-color: #f2f6f8;
@@ -937,16 +937,16 @@ main {
 	padding-top: 20px;
 	text-transform: uppercase;
 }
-.switch {
+.slide-techno2 .switc {
 	position: absolute;
 	top: 200px;
 	left: 290px;
 
 }
-.switch  input[type="radio"] {
+.slide-techno2 .switc input[type="radio"] {
 	display: none;
 }
-.switch  input[type="radio"] + label {
+.slide-techno2 .switc input[type="radio"] + label {
 	display: inline-block;
 	vertical-align: top;
 	position: relative;
@@ -956,7 +956,7 @@ main {
 	padding: 0px;
 	z-index: 11;
 }
-.switch input[type="radio"] + label:before {
+.slide-techno2  .switc input[type="radio"] + label:before {
 	content: "";
 	position: absolute;
 	top: 0px;
@@ -966,7 +966,7 @@ main {
 	height: 10px;
 	border-radius: 50%;
 }
-.switch input[type="radio"]:checked + label::after {
+.slide-techno2 .switc input[type="radio"]:checked + label::after {
 	content: "";
 	position: absolute;
 	top: 1px;
