@@ -345,10 +345,10 @@ main {
 	background-color: #ffffff;
 }
 .main-service {
-	background-color: #f1f5f7;
+	background-color: #f2f6f8;
 }
 .main-say {
-	background-color: #f1f5f7;
+	background-color: #f2f6f8;
 }
 .main-company {
 	background-color: #ffffff;	
@@ -776,7 +776,7 @@ main {
 	background: url("../img/content/slider/image1.jpg") no-repeat;
 	width: 620px;
 	height: 266px;
-	display: block;
+	display: none;
 	clear: both;
 	font-size: 18px; 
 	line-height: 24px;
@@ -797,25 +797,44 @@ main {
 	padding-top: 20px;
 	text-transform: uppercase;
 }
-.slide-techno .perforator:before {
-	content: "";
+.switch {
 	position: absolute;
 	top: 200px;
-	left: 274px;
-	border-radius: 50%;
-	background: #ffffff url("../img/decor/sprite.png") no-repeat -8px -2259px;
-	width: 10px;
-	height: 10px; 
+	left: 290px;
+
 }
-.slide-techno .perforator:after {
+.switch  input[type="radio"] {
+	display: none;
+}
+.switch  input[type="radio"] + label {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	cursor: pointer;
+	text-transform: uppercase;
+	margin-right: 18px;
+	padding: 0px;
+	z-index: 11;
+}
+.switch input[type="radio"] + label:before {
 	content: "";
 	position: absolute;
-	top: 200px;
-	right: -88px;
-	border-radius: 50%;
-	background: #ffffff url("../img/decor/sprite.png") no-repeat -8px -2259px;
+	top: 0px;
+	left: 0px;
+	background: #ffffff;
 	width: 10px;
-	height: 10px; 
+	height: 10px;
+	border-radius: 50%;
+}
+.switch input[type="radio"]:checked + label::after {
+	content: "";
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	background: #ee3643;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
 }
 
 .slide-techno .icon-left {
@@ -866,17 +885,11 @@ main {
 	position: absolute;
 	top: 0px;
 	left: 0px;
-	background: url("../img/decor/shadow1.png") no-repeat;
+	background: url("../img/decor/shadow2.png") no-repeat;
 	width: 620px;
 	height: 105px;
 }
-.slide2 {
-	width: 300px;
-	float: right;
-	margin-top: 60px;
-	margin-bottom: 25px;
-	
-}
+
 .slide-perforator {
 	position: relative;
 	background: #cc79d1;  
@@ -893,6 +906,163 @@ main {
 	background: url("../img/decor/sprite.png") no-repeat -10px -2365px;
 	width: 78px;
     height: 62px;
+}
+.slide-techno2 img {
+	width: 620px; 
+	height: 266px;
+}
+.slide-techno2 {
+	position: relative;
+	background: url("../img/content/slider/image2.jpg") no-repeat;
+	width: 620px;
+	height: 266px;
+	display: block;
+	clear: both;
+	font-size: 18px; 
+	line-height: 24px;
+	color: #ffffff;
+	padding-left: 25px;
+}
+.slide-techno2 .perforator {
+	font-family: "Cuprum";
+	position: absolute;
+	top:-30px;
+	left: 19px;
+	z-index: 10;
+	font-size: 36px;
+	line-height: 30px;
+	font-weight: bold;
+	padding-left: 0px;
+	margin-bottom: 10px;
+	padding-top: 20px;
+	text-transform: uppercase;
+}
+.switch {
+	position: absolute;
+	top: 200px;
+	left: 290px;
+
+}
+.switch  input[type="radio"] {
+	display: none;
+}
+.switch  input[type="radio"] + label {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	cursor: pointer;
+	text-transform: uppercase;
+	margin-right: 18px;
+	padding: 0px;
+	z-index: 11;
+}
+.switch input[type="radio"] + label:before {
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: #ffffff;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+}
+.switch input[type="radio"]:checked + label::after {
+	content: "";
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	background: #ee3643;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+}
+
+.slide-techno2 .icon-left {
+	position: absolute;
+	top: 110px;
+	left: 20px;
+	background: url("../img/decor/sprite.png") no-repeat -10px -1504px;
+	width: 22px;
+    height: 40px;
+	z-index: 10;
+}
+.slide-techno2 .icon-right {
+	position: absolute;
+	top: 110px;
+	right: 45px;
+	background: url("../img/decor/sprite.png") no-repeat -10px -1751px;
+	width: 22px;
+    height: 40px;
+	z-index: 10;
+}
+.slide-techno2 span {
+	font-family: "Cuprum";
+	position: absolute;
+	top: 60px;
+	left: 20px;
+	z-index: 10;
+}
+.slide-techno2 p  a {
+	font-family: "Cuprum" ;
+	position: absolute;
+	top: 200px;
+	left: -3px;
+	font-weight: normal;
+	padding: 9px 0px;
+	background: #ee3643;
+	text-transform: uppercase;
+	width: 196px;
+	text-align: center;
+	border-radius: 3px;
+}
+.slide-techno2 p  a:hover{
+	background-color: #ca2c37;
+}
+.slide-techno2 p  a:active {
+	background-color: #ba2732;
+}
+
+.slide-techno2:before {
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background: url("../img/decor/shadow2.png") no-repeat;
+	width: 620px;
+	height: 105px;
+}
+.shad2-nook {
+	position: absolute;
+	top: 0px;
+	left: 288px;
+	background: url("../img/decor/shad2-nook.png") no-repeat ;
+	width: 332px;
+	height:	266px;
+	z-index: 9;
+}
+
+.slide-perforator {
+	position: relative;
+	background: #cc79d1;  
+	width: 300px;
+	float: right;
+	height: 123px;
+	margin: 0px 0px 20px 0px;
+}
+.slide-perforator :before {
+	content: "";
+	position: absolute;
+	top: 35px;
+	left: 195px;
+	background: url("../img/decor/sprite.png") no-repeat -10px -2365px;
+	width: 78px;
+    height: 62px;
+}
+.slide2 {
+	width: 300px;
+	float: right;
+	margin-top: 60px;
+	margin-bottom: 25px;
 }
 .slide-discount {
 	position: relative;
@@ -1076,7 +1246,6 @@ main {
 }
 .service {
 	background: #f2f6f8;
-	width: auto;
 }
 .service-client {
 	display: block;
@@ -1140,18 +1309,21 @@ main {
 	box-shadow: none;
 }
 .service-delivery {
-	display: block;
+	display: ;
 	float: left;
 	width: 250px;
 	margin-left: 80px;
+	
 }
 .service-delivery span {
 	font-family: "PT Sans";
 	display: block;
+	float: left;
 	font-size: 13px;
 	line-height: 24px;
 	color: #000000;
-	margin-top: -10px;
+	padding: 0px;
+	margin: 0px;	
 }
 .service-delivery .heading-four {
 	font-family: "Cuprum";
@@ -1161,6 +1333,9 @@ main {
 	line-height: 24px;
 	color: #32425c;
 	text-transform: uppercase;
+	margin-bottom: 33px;
+	margin-top: 3px;
+	
 }
 .heading-four:before {
 	content: "";
@@ -1180,7 +1355,99 @@ main {
 	background: url("../img/decor/car-shadow2.png");
 	width: 467px;
 	height: 261px;
-	
+	z-index: 9;
+}
+.service-credit {
+	display: none;
+	float: left;
+	width: 280px;
+	margin-left: 80px;
+}
+.service-credit span {
+	font-family: "PT Sans";
+	display: block;
+	font-size: 13px;
+	line-height: 24px;
+	color: #000000;
+}
+.service-credit .heading-four {
+	font-family: "Cuprum";
+	position: relative;
+	font-size: 36px;
+	line-height: 24px;
+	color: #32425c;
+	text-transform: uppercase;
+	margin-bottom: 33px;
+	margin-top: 3px;
+}
+.service-credit .heading-four:before {
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 414px;
+	background: url("../img/decor/credit.png") no-repeat;
+	width: 181px;
+	height: 184px;
+	z-index: 10;
+}
+.service-credit .heading-four:after {
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 130px;
+	background: url("../img/decor/credit-shadow.png") no-repeat;
+	width: 467px;
+	height: 261px;
+	z-index: 0;
+}
+.service-credit .pops-all a{
+	width: 195px;
+	display: block;
+	float: left;
+	margin-top: 22px;
+}
+.service-medal {
+	display: none ;
+	float: left;
+	width: 320px;
+	margin-left: 80px;
+}
+.service-medal span {
+	font-family: "PT Sans";
+	display: block;
+	font-size: 13px;
+	line-height: 24px;
+	color: #000000;
+}
+.service-medal .heading-four {
+	font-family: "Cuprum";
+	position: relative;
+	font-size: 36px;
+	line-height: 24px;
+	color: #32425c;
+	text-transform: uppercase;
+	margin-bottom: 33px;
+	margin-top: 3px;
+}
+.service-medal .heading-four:before {
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 414px;
+	background: url("../img/decor/Medal.png") no-repeat;
+	width: 181px;
+	height: 184px;
+	z-index: 10;
+}
+.service-medal .heading-four:after {
+	content: "";
+	position: absolute;
+	top: 10px;
+	left: 196px;
+	background: url("../img/decor/Medal-shadow.png") no-repeat;
+	width: 467px;
+	height: 261px;
+	z-index: 0;
 }
 .company {
 	background: #ffffff;
