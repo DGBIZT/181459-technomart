@@ -2090,7 +2090,13 @@ main {
     -webkit-border-radius: 2px 2px 2px 2px; /* Для браузера Chrome и Safari */
     -khtml-border-radius: 2px 2px 2px 2px; /* Для браузера браузера Konquerer, ну это из мира Linux вдруг будет такой счастливчик, да и не такая тяжба вставить это  */
 	border-radius: 2px 2px 2px 2px;
+	
 }
+	input[type=number]::-webkit-inner-spin-button, 
+	input[type=number]::-webkit-outer-spin-button { 
+	-webkit-appearance: none; 
+	margin: 0; 
+  }
 .number-right {
 	font-family: "PT Sans";
 	font-size: 17px;
@@ -2458,11 +2464,13 @@ input[type="radio"]:checked + label::after {
 	display: block;
 }
 .catalog-item .image {
-	width: 180px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 160px;
 	height: 148px;
 }
 .catalog-item  .image  img{
-	width: 180px;
+	width: 160px;
 	height: 148px;
 }
 .catalog-item .title {
@@ -2576,7 +2584,7 @@ input[type="radio"]:checked + label::after {
 	transform: translateY(15%) translateX(58.9%);
 	border-top: 5px solid #ee3643;
 	color: #000000;
-	background: #ffffff url("img/pattern-white.jpg");
+	background: #ffffff;
 	box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
 	z-index: 25;
 	font-size: 18px;
