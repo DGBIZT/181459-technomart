@@ -2635,6 +2635,9 @@ input[type="radio"]:checked + label::after {
 	margin-top: 30px;
 	margin-bottom: 10px; 
 }
+.login-form label {
+	cursor: pointer;
+}
 
 .login-form  input[type="text"] {
 	width: 197px;
