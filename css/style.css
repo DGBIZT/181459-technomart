@@ -2011,7 +2011,6 @@ main {
 	text-transform: uppercase;
 	background: #ffffff;
 	padding: 8px 0px 16px 0px;
-	border: 1px solid black;
 }
 .range {
 	position: relative;
@@ -2075,13 +2074,13 @@ main {
 	z-index: 2;
 	border: none; /* Убираем границу для браузера Firefox */
     color: green; /* Цвет линии для остальных браузеров */
-    background-color: green; /* Цвет линии для браузера Firefox и Opera */
+    background-color: #00ca74; /* Цвет линии для браузера Firefox и Opera */
     height: 2px; /* Толщина линии */
 }
 .number {
 	position: relative;
 	width: 220px;
-	margin-top: 10px;
+	margin-top: 9px;
 	margin-bottom: 25px;
 }
 .number-left {
