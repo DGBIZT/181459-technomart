@@ -817,8 +817,8 @@ main {
 }
 .switch {
 	position: absolute;
-	top: 213px;
-	left: 295px;
+	top: 210px;
+	left: 297px;
 
 }
 .switch  input[type="radio"] {
@@ -857,7 +857,7 @@ main {
 
 .slide-techno .icon-left {
 	position: absolute;
-	top: 118px;
+	top: 115px;
 	left: 4px;
 	background:   url("../img/decor/sprite.png") no-repeat -10px -1504px;
 	width: 22px;
