@@ -1812,7 +1812,6 @@ main {
 	color: #000000;
 	float: right;
 	text-align: center;
-	
 }
 .user-name span {
 	display: block;
@@ -1855,8 +1854,8 @@ main {
 	position: absolute;
 	top: 13px;
 	right: 12px;
-	background: url("../img/decor/sprite.png") no-repeat -10px -1601px;
-	width: 20px;
+	background: url("../img/decor/sprite.png") no-repeat -10px -1638px;
+	width: 21px;
     height: 17px;
 }
 .user-name:hover:after {
@@ -1864,8 +1863,8 @@ main {
 	position: absolute;
 	top: 13px;
 	right: 12px;
-	background: url("../img/decor/sprite.png") no-repeat -10px -1564px;
-	width: 20px;
+	background: url("../img/decor/sprite.png") no-repeat -10px -1675px;
+	width: 21px;
     height: 17px;
 }
 .user-name:active:after{
@@ -1873,8 +1872,8 @@ main {
 	position: absolute;
 	top: 13px;
 	right: 12px;
-	background: url("../img/decor/sprite.png") no-repeat -10px -1601px;
-	width: 20px;
+	background: url("../img/decor/sprite.png") no-repeat -10px -1638px;
+	width: 21px;
     height: 17px;
 }
 .user-activ-name a {
