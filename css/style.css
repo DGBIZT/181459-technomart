@@ -1955,6 +1955,7 @@ main {
 	display: none;
 }
 .breadcrumbs span {
+	font-family: "PT Sans", arial;
 	position: relative;
 	font-size: 13px;
 	line-height: 18px;
