@@ -441,7 +441,7 @@ main {
 	padding: 13px 0px 13px 45px;
 	width: 228px;
 	height: 16px;
-	background: url("../img/decor/new/icon-search.png") no-repeat 14px 13px;
+	background: url("../img/decor/new/icon-search.png") no-repeat 16px 13px;
 	vertical-align: middle;
 }
 .search input[type="text"]:hover{
