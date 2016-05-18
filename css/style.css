@@ -804,8 +804,8 @@ main {
 }
 .slide-techno .perforator {
 	position: absolute;
-	top:-30px;
-	left: 19px;
+	top:-16px;
+	left: 17px;
 	z-index: 10;
 	font-size: 36px;
 	line-height: 30px;
