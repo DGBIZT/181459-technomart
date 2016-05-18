@@ -1623,7 +1623,7 @@ main {
 	padding-top: 17px;
 	padding-bottom:14px;
 	background: #ee3643;
-	margin-right: 155px;
+	margin-right: 165px;
 	box-shadow: 0 5px 0 0 #b52933;
 }
 .footer-main-list {
@@ -1636,9 +1636,12 @@ main {
 .footer-main-list li {
 	display: inline-block;
 	margin-top: 40px;
-	margin-right: 61px;
+	margin-right: 60px;
 	min-width: 50px;
 	vertical-align: top;	
+}
+.footer-main-list li:nth-child(5) {
+	margin-right: 0px;
 }
 .footer-main-list li:nth-child(5) {
 	margin-right: 0px;
