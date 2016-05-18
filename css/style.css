@@ -401,7 +401,9 @@ main {
 	padding: 9px;
 	box-sizing: border-box;
 	background: #ee3643;
-	box-shadow: 0 5px 0 0 #b52933; 
+	box-shadow: 0 5px 0 0 #b52933;
+	text-transform: uppercase;
+
 }
 .logotype a:hover {
 	background-color: #ca2c37;
@@ -494,7 +496,7 @@ main {
 .top-menu a:active {
 	color: #babbbd;
 }
-.top-menu .green a {
+.green-menu a {
 	position: block;
 	float: right;
 	padding-left: 0px; 
@@ -503,13 +505,13 @@ main {
 	text-align: center;
 	width: 150px;
 }
-.top-menu .green a:hover {
+.green-menu a:hover {
 	background-color: #63a63e;
 }
-.top-menu .green a:active {
+.green-menu a:active {
 	background-color: #518534;
 }
-.top-menu .bookmark a:before{
+.bookmark a:before{
 	content: "";
 	position: absolute;
 	top: 12px;
@@ -518,16 +520,16 @@ main {
 	  width: 14px;
     height: 16px;
 }
-.top-menu .bookmark a:hover:before{
+.bookmark a:hover:before{
 	background: url("../img/decor/new/icon-bookmark2.png") no-repeat;
 
 }
-.top-menu .bookmark a:active:before{
+.bookmark a:active:before{
 	background: url("../img/decor/sprite.png") no-repeat -10px -913px;
 	  width: 14px;
     height: 16px;
 }
-.top-menu .basket a:before{
+.basket a:before{
 	content: "";
 	position: absolute;
 	top: 12px;
@@ -536,11 +538,11 @@ main {
 	 width: 17px;
     height: 16px;
 }
-.top-menu .basket a:hover:before{
+.basket a:hover:before{
 	background: url("../img/decor/new/icon-basket2.png") no-repeat;
 }
 
-.top-menu .basket a:active:before{
+.basket a:active:before{
 	background: url("../img/decor/sprite.png") no-repeat -10px -841px;
 	width: 17px;
     height: 16px;
@@ -558,6 +560,7 @@ main {
 	line-height: 23px;
 	color: #ee3643;
 	margin-left: 60px;
+	margin-top: 30px;
 }
 .phone {
 	width: 270px;
@@ -873,7 +876,7 @@ main {
 	left: 20px;
 	z-index: 10;
 }
-.slide-techno p  a {
+.slide-open  a {
 	position: absolute;
 	top: 200px;
 	left: -3px;
@@ -885,10 +888,10 @@ main {
 	text-align: center;
 	border-radius: 3px;
 }
-.slide-techno p  a:hover{
+.slide-open  a:hover{
 	background-color: #ca2c37;
 }
-.slide-techno p  a:active {
+.slide-open  a:active {
 	background-color: #ba2732;
 }
 
@@ -1021,7 +1024,7 @@ main {
 	left: 20px;
 	z-index: 10;
 }
-.slide-techno2 p  a {
+.slide-open  a {
 	position: absolute;
 	top: 200px;
 	left: -3px;
@@ -1033,10 +1036,10 @@ main {
 	text-align: center;
 	border-radius: 3px;
 }
-.slide-techno2 p  a:hover{
+.slide-open  a:hover{
 	background-color: #ca2c37;
 }
-.slide-techno2 p  a:active {
+.slide-open  a:active {
 	background-color: #ba2732;
 }
 
@@ -1328,7 +1331,7 @@ main {
 	box-shadow: none;
 }
 .service-delivery {
-	display: ;
+	display:  ;
 	float: left;
 	width: 250px;
 	margin-left: 80px;
@@ -1345,7 +1348,6 @@ main {
 	margin: 0px;	
 }
 .service-delivery .heading-four {
-
 	position: relative;
 	display: block;
 	font-size: 36px;
@@ -1418,7 +1420,7 @@ main {
 	height: 261px;
 	z-index: 0;
 }
-.service-credit .pops-all a{
+.service-credit a{
 	width: 195px;
 	display: block;
 	float: left;
@@ -1438,7 +1440,6 @@ main {
 	color: #000000;
 }
 .service-medal .heading-four {
-
 	position: relative;
 	font-size: 36px;
 	line-height: 24px;
@@ -1660,7 +1661,6 @@ main {
 	min-height: 50px;	
 	margin-top: 30px;
 	margin-bottom: 42px;
-	
 }
 .foot-breadcrumbs-list {
 	display: block;
@@ -1692,7 +1692,6 @@ main {
 	text-decoration: none;
 	opacity: 0.5;
 }
-
 .footer-tehno {
 	font-size: 16px;
 	line-height: 18px;
@@ -2112,7 +2111,6 @@ main {
 	float: right;
 	border-radius: 2px;
 }	
-
 .number-right input[type="number"] { 
 	color: #000000;  
 	outline:none;
@@ -2253,7 +2251,6 @@ input[type="radio"]:checked + label::after {
 	padding-bottom: 60px;
 }
 .triage-line {
-	
 	background: #f7f3ec;
 	border-radius: 3px;
 	margin: 0px;
@@ -2588,6 +2585,9 @@ input[type="radio"]:checked + label::after {
 	left: 50%;
 	width: 620px;
 	transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-khtml-transform: translate(-50%, -50%);
 	border-top: 5px solid #ee3643;
 	color: #000000;
 	background: #ffffff;
@@ -2716,6 +2716,9 @@ input[type="radio"]:checked + label::after {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-khtml-transform: translate(-50%, -50%);
 	width: 940px;
 	height: 447px;
 	z-index: 25;
@@ -2729,6 +2732,9 @@ input[type="radio"]:checked + label::after {
 	left: 50%;
 	width: 620px;
 	transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-khtml-transform: translate(-50%, -50%);
 	border-top: 5px solid #ee3643;
 	color: #000000;
 	background: #ffffff url("img/pattern-white.jpg");
@@ -2737,6 +2743,7 @@ input[type="radio"]:checked + label::after {
 	font-size: 18px;
 	line-height: 18px;
 }
+
 .modal-goods-close {
 	position: absolute;
 	top: 10px;
@@ -2763,7 +2770,6 @@ input[type="radio"]:checked + label::after {
 .modal-goods-close::before {
 	transform: rotate(45deg);
 }
-
 .modal-goods-close::after {
 	transform: rotate(-45deg);
 }
