@@ -1651,8 +1651,7 @@ main {
 	font-size: 18px;
 	line-height: 24px;
 	color: #f1f5f7;
-	text-decoration: none;
-	
+	text-decoration: none;	
 }
 .footer-main-list a:hover{
 	text-decoration: underline;	
@@ -1682,7 +1681,7 @@ main {
 }
 .foot-breadcrumbs-list li {
 	display: inline-block;
-	margin-right: 60px;
+	margin-right: 58px;
 	min-width: 50px;
 	vertical-align: top;
 	
