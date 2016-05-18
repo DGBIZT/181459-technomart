@@ -589,7 +589,7 @@ main {
 	line-height: 18px;
 	color: #e9292a;
 	padding: 12px 0px;
-	border: 5px solid #ffffff;	
+	border: 3px solid #ffffff;	
 }
 .phone .heading-three:before {
 	content: "";
