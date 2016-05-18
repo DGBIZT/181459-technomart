@@ -2221,7 +2221,7 @@ input[type="checkbox"]:checked + label:after {
 }
 .supply {
 	font-family: "PT Sans", arial;
-	font-size: 15px;
+	font-size: 25px;
 	line-height: 20px;
 }
 input[type="radio"] {
