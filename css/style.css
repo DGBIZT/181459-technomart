@@ -1317,7 +1317,7 @@ main {
 	line-height: 30px;
 	font-weight: bold;
 	text-decoration: none;
-	padding: 14px 20px;
+	padding: 16px 20px;
 	color: #ffffff;
 	background: #32425c;
 	box-shadow: inset 0 -1px 0 0 #293449,
@@ -1337,7 +1337,7 @@ main {
 	display:  ;
 	float: left;
 	width: 250px;
-	margin-left: 80px;
+	margin-left: 78px;
 	
 }
 .service-delivery span {
@@ -1359,7 +1359,6 @@ main {
 	text-transform: uppercase;
 	margin-bottom: 33px;
 	margin-top: 3px;
-	
 }
 .heading-four:before {
 	content: "";
