@@ -2481,12 +2481,12 @@ input[type="radio"]:checked + label::after {
 .catalog-item .image {
 	margin-right: auto;
 	margin-left: auto;
-	width: 160px;
-	height: 148px;
+	width: 127px;
+	height: 112px;
 }
 .catalog-item  .image  img{
-	width: 160px;
-	height: 148px;
+	width: 127px;
+	height: 112px;
 }
 .catalog-item .title {
 	font-family: "PT Sans", arial ;
