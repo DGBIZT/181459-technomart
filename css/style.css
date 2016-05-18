@@ -857,7 +857,7 @@ main {
 
 .slide-techno .icon-left {
 	position: absolute;
-	top: 115px;
+	top: 114px;
 	left: 4px;
 	background:   url("../img/decor/sprite.png") no-repeat -10px -1504px;
 	width: 22px;
@@ -875,7 +875,7 @@ main {
 
 .slide-techno .icon-right {
 	position: absolute;
-	top: 110px;
+	top: 114px;
 	right: 45px;
 	background: url("../img/decor/sprite.png") no-repeat -10px -1751px;
 	width: 22px;
