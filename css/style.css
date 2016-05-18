@@ -428,20 +428,22 @@ main {
 .top-menu  .search {
     color: white;
 	display: block;	
-	float: left;
-	width: 270px;
+	float: right;
+	width: 275px;
 	height: 42px;
 	font-size: 17px;
 	line-height: 18px;
+	margin-right: 0px;
+	background: red;	
 }
 .search input[type="text"] { 
 	color: #ffffff; 
 	border: none; 
 	outline:none;
 	padding: 13px 0px 13px 45px;
-	width: 228px;
+	width: 220px;
 	height: 16px;
-	background: url("../img/decor/new/icon-search.png") no-repeat 17px 13px;
+	background: url("../img/decor/new/icon-search.png") no-repeat 18px 12px;
 	vertical-align: middle;
 }
 .search input[type="text"]:hover{
@@ -449,18 +451,18 @@ main {
 	border: none; 
 	outline:none;
 	padding: 13px 0px 13px 45px;
-	width: 228px;
+	width: 230px;
 	height: 16px;
-	background: #212a3a url("../img/decor/new/icon-search3.png") no-repeat 14px 13px;
+	background: #212a3a url("../img/decor/new/icon-search3.png") no-repeat 18px 12px;
 }
 .search input[type="text"]:focus {
 	color: #000000;
 	border: none;
 	outline:none;
 	padding: 13px 0px 13px 45px;
-	width: 228px;
+	width: 230px;
 	height: 16px;
-	background: #ffffff url("../img/decor/new/icon-search-red.png") no-repeat 14px 13px;
+	background: #ffffff url("../img/decor/new/icon-search-red.png") no-repeat 18px 12px;
 }
 .search input[type="text"]::-webkit-input-placeholder { /* WebKit browsers */
    color:    white;
@@ -484,9 +486,9 @@ main {
 	line-height: 18px;
 	color: white;
 	display: block;	
-	float: right;
+	float: left;
 	padding: 12px 0px;
-	width: 150px;
+	width: 147.5px;
 	text-align: center;
 	text-decoration: none;
 }
@@ -498,7 +500,7 @@ main {
 }
 .green-menu a {
 	position: block;
-	float: right;
+	float: left;
 	padding-left: 0px; 
 	padding-right: 0px;
 	margin-right: 0px;
