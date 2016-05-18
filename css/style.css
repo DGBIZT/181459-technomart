@@ -2216,12 +2216,12 @@ input[type="checkbox"]:checked + label:after {
 	line-height: 30px;
 	font-weight: bold;
 	text-transform: uppercase;
-	margin-top: 15px;
+	margin-top: 25px;
 	display: block;
 }
 .supply {
 	font-family: "PT Sans", arial;
-	font-size: 25px;
+	font-size: 14px;
 	line-height: 20px;
 }
 input[type="radio"] {
