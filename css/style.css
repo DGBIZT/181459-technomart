@@ -1770,14 +1770,15 @@ main {
 }
 .footer-copyright-two {
 	display: block;
-	float: right;
+	float: left;
 	width: 100px;
 	margin-right: 0px;
-	margin-left: 10px;
+	margin-left: 50px;
 	margin-top: 46px;
 	font-size: 16px;
 	line-height: 18px;
 	color: #ffffff;
+	
 }
 .footer-copyright-two a {
 	font-size: 16px;
