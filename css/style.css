@@ -403,7 +403,6 @@ main {
 	background: #ee3643;
 	box-shadow: 0 5px 0 0 #b52933;
 	text-transform: uppercase;
-
 }
 .logotype a:hover {
 	background-color: #ca2c37;
@@ -433,8 +432,7 @@ main {
 	height: 42px;
 	font-size: 17px;
 	line-height: 18px;
-	margin-right: 0px;
-	background: red;	
+	margin-right: 0px;	
 }
 .search input[type="text"] { 
 	color: #ffffff; 
@@ -451,7 +449,7 @@ main {
 	border: none; 
 	outline:none;
 	padding: 13px 0px 13px 45px;
-	width: 230px;
+	width: 240px;
 	height: 16px;
 	background: #212a3a url("../img/decor/new/icon-search3.png") no-repeat 18px 12px;
 }
@@ -460,7 +458,7 @@ main {
 	border: none;
 	outline:none;
 	padding: 13px 0px 13px 45px;
-	width: 230px;
+	width: 240px;
 	height: 16px;
 	background: #ffffff url("../img/decor/new/icon-search-red.png") no-repeat 18px 12px;
 }
@@ -581,7 +579,7 @@ main {
 	font-size: 14px;
 	line-height: 24px;
 	color: #32425c;
-	margin-left: 50px;
+	margin-left: 60px;
 	
 }
 .phone .heading-three {
