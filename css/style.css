@@ -2555,10 +2555,10 @@ input[type="radio"]:checked + label::after {
 	border-left-color: transparent;
 }
 .pl-item {
-		margin: 0px;
-		padding: 0px;
-		list-style: none;
-		font-size: 0px;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	font-size: 0px;
 }
 .pl-item  li{
 	display: inline-block;
@@ -2573,6 +2573,7 @@ input[type="radio"]:checked + label::after {
 	text-decoration: none;
 	padding: 9px 16px;
 	margin-right: 10px;
+	margin-top: 30px;
 	background: white;
 	border: 1px solid #e5e5e5;
 	border-radius: 2px;
