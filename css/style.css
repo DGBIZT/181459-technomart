@@ -2495,7 +2495,7 @@ input[type="radio"]:checked + label::after {
 	line-height: 20px;
 	min-height: 40px;
 	padding: 0 25px;
-	margin-top: 20px;
+	margin-top: 60px;
 	margin-bottom: 15px;
 }
 .catalog-item  .discount {
