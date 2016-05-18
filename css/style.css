@@ -561,12 +561,14 @@ main {
 	color: #ee3643;
 	margin-left: 60px;
 	margin-top: 30px;
+	margin-bottom: 22px;
 }
 .phone {
 	width: 270px;
 	text-align: center;
 	float: left;
 	margin: 35px 70px 0px 0px;
+	margin-top: 45px;
 	text-align: center;
 	font-size: 14px;
 	line-height: 24px;
@@ -581,8 +583,7 @@ main {
 	line-height: 18px;
 	color: #e9292a;
 	padding: 12px 0px;
-	border: 2px solid #ffffff;
-	
+	border: 2px solid #ffffff;	
 }
 .phone .heading-three:before {
 	content: "";
@@ -596,7 +597,7 @@ main {
 .user-activ{
 	display: block;
 	float: right;
-	margin-top: 35px;
+	margin-top: 45px;
 	width: 278px;
 	height: 47px;
 }
