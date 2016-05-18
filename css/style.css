@@ -2268,7 +2268,7 @@ input[type="radio"]:checked + label::after {
 	outline: none;
 	margin-top: 56px;
 	text-transform: uppercase;
-	border-radius: 3px;
+	border-radius:3px;
 }
 .let-see:hover {
 	border: 1px solid #bdc6ca;
