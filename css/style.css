@@ -1297,7 +1297,7 @@ main {
 	float: left;
 	margin: 0px;
 	padding: 0px;
-	padding-bottom: 102px;
+	padding-bottom: 104px;
 	list-style: none;
 	display: block;
 	width: 240px;
@@ -1476,7 +1476,7 @@ main {
 .company {
 	background: #ffffff;
 	width: auto;
-	padding-top: 40px;
+	padding-top: 82px;
 	padding-bottom: 52px;
 }
 .head-company {
