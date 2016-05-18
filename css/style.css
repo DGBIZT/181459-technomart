@@ -535,7 +535,7 @@ main {
 	content: "";
 	position: absolute;
 	top: 12px;
-	left: 2px;
+	left: 3px;
 	background: url("../img/decor/sprite.png") no-repeat -10px -841px;
 	 width: 17px;
     height: 16px;
