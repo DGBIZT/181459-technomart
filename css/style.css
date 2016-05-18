@@ -1718,8 +1718,8 @@ main {
 	display: block;
 	float: left;
 	width: 200px;
-	margin-left: 20px;
-	margin-top: 37px;
+	margin-left: 25px;
+	margin-top: 35px;
 }
 .social-btn {
   display: inline-block;
@@ -1739,11 +1739,9 @@ main {
 .social-btn-vk {
 	background: #212a3a url("../img/decor/sprite.png") no-repeat 0px -2105px; 
 }
-
 .social-btn-fb {
   background: #212a3a url("../img/decor/sprite.png") no-repeat 5px -1387px; 
 }
-
 .social-btn-inst {
   background: #212a3a url("../img/decor/sprite.png") no-repeat  2px -1455px; 
 }
