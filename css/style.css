@@ -2216,7 +2216,7 @@ input[type="checkbox"]:checked + label:after {
 	line-height: 30px;
 	font-weight: bold;
 	text-transform: uppercase;
-	margin-top: 20px;
+	margin-top: 15px;
 	display: block;
 }
 .supply {
