@@ -493,10 +493,10 @@ main {
 	text-decoration: none;
 }
 .top-menu li:nth-child(2) a{
-	width: 156px;
+	width: 150px;
 }
 .top-menu li:nth-child(3) a{
-	width: 135px;
+	width: 141px;
 }	
 .top-menu a:hover {
 	background-color: #212a3a;
