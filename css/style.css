@@ -367,13 +367,6 @@ main {
 	background-color: #293449;
 	min-width: 960px;
 }
-.container2 {
-	background: #293449;
-	width: 940px;
-	margin: 0 auto;
-	padding: 0 0;
-	min-height: 90px;
-}
 .container {
 	width: 940px;
 	margin: 0 auto;
@@ -916,7 +909,6 @@ main {
 	width: 620px;
 	height: 105px;
 }
-
 .slide-perforator {
 	position: relative;
 	background: #cc79d1;  
@@ -1072,7 +1064,6 @@ main {
 	height:	266px;
 	z-index: 9;
 }
-
 .slide-perforator {
 	position: relative;
 	background: #cc79d1;  
@@ -1211,13 +1202,13 @@ main {
 	width: auto;
 	text-align: center;
 	margin-top: 20px;
-	margin-bottom: 80px;
+	margin-bottom: 96px;
 }
 .producers-img-label  {
 	background: #ffffff;
 	border: 2px solid #e5e5e5;
 	width: 220px;
-	height: 141px;
+	height: 146px;
 	display:block;
 	float: left;
 	margin-right: 20px;
