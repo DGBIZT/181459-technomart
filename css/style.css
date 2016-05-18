@@ -1287,7 +1287,9 @@ main {
 .web-shop {
 	font-family: "PT Sans", arial;
 	font-size: 13px;
-	line-height: 24px;	
+	line-height: 24px;
+	margin-top: 29px;
+	margin-bottom: 17px;
 }
 .service-menu {
 	position: relative;
@@ -1309,7 +1311,6 @@ main {
 	width: 10px;
 	height: 272px;	
 }
-
 .service-menu a {
 	display: block;
 	font-size: 21px;
@@ -1363,7 +1364,7 @@ main {
 .heading-four:before {
 	content: "";
 	position: absolute;
-	top: 0px;
+	top: 20px;
 	left: 414px;
 	background: url("../img/decor/car-shadow.png");
 	width: 206px;
@@ -1373,7 +1374,7 @@ main {
 .heading-four:after {
 	content: "";
 	position: absolute;
-	top: 0px;
+	top: 20px;
 	left: 152px;
 	background: url("../img/decor/car-shadow2.png");
 	width: 467px;
