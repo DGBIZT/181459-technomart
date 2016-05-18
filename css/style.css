@@ -565,8 +565,8 @@ main {
 	font-size: 16px;
 	line-height: 23px;
 	color: #ee3643;
-	margin-left: 57px;
-	margin-top: 35px;
+	margin-left: 56px;
+	margin-top: 34px;
 	margin-bottom: 22px;
 }
 .phone {
@@ -579,7 +579,7 @@ main {
 	font-size: 14px;
 	line-height: 24px;
 	color: #32425c;
-	margin-left: 65px;
+	margin-left: 60px;
 	
 }
 .phone .heading-three {
@@ -589,7 +589,7 @@ main {
 	line-height: 18px;
 	color: #e9292a;
 	padding: 12px 0px;
-	border: 2px solid #ffffff;	
+	border: 5px solid #ffffff;	
 }
 .phone .heading-three:before {
 	content: "";
