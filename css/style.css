@@ -2483,6 +2483,7 @@ input[type="radio"]:checked + label::after {
 	margin-left: auto;
 	width: 127px;
 	height: 112px;
+	margin-top: 40px;
 }
 .catalog-item  .image  img{
 	width: 127px;
