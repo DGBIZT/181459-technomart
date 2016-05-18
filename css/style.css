@@ -965,8 +965,8 @@ main {
 }
 .slide-techno2 .switc {
 	position: absolute;
-	top: 200px;
-	left: 290px;
+	top: 215px;
+	left: 310px;
 
 }
 .slide-techno2 .switc input[type="radio"] {
@@ -1002,7 +1002,6 @@ main {
 	height: 8px;
 	border-radius: 50%;
 }
-
 .slide-techno2 .icon-left {
 	position: absolute;
 	top: 110px;
