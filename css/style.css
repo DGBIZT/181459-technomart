@@ -2233,7 +2233,7 @@ input[type="radio"] + label {
 	line-height: 18px;
 	font-weight: bold;
 	font-size: 14px;
-	padding-left: 45px;
+	padding-left: 35px;
 	position: relative;
 	cursor: pointer;
 	padding-bottom: 12px;
@@ -2257,6 +2257,25 @@ input[type="radio"]:checked + label::after {
 	width: 25px;
     height: 25px;
 } 
+.let-see {
+	border: 1px solid #e5e5e5;
+	background-color: #ffffff;
+	width: 140px;
+	height: 38px;
+	font-family: "PT Sans", arial;
+	font-size: 13px;
+	line-height: 18px;
+	outline: none;
+	margin-top: 56px;
+	text-transform: uppercase;
+	border-radius: 3px;
+}
+.let-see:hover {
+	border: 1px solid #bdc6ca;
+}
+.let-see:active {
+	border: 1px solid #ee3643;
+}
 .catalog {
 	width: 700px;
 	float: right;
@@ -2379,8 +2398,7 @@ input[type="radio"]:checked + label::after {
 	font-size: 16px;
 } 
 .catalog-item:hover {
-	box-shadow: 0 5px 20px 1px #abafb8;
-	
+	box-shadow: 0 5px 20px 1px #abafb8;	
 } 
 .catalog-item  .flag {
 	position: absolute;
