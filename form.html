@@ -9,11 +9,17 @@
 	<link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-  <div class="modal-goods">
-		<span class="goods-basket">Товар добален в корзину!</span>
-		<div class="modal-goods-btn clearfix"><a href="#">оформить заказ</a>
-		<a href="form.html">продолжить покупки</a></div>
-		<button class="modal-goods-close" type="button" title="Закрыть">Закрыть</button>	
-	</div>
+	 <div class="modal-content">
+      <button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
+      <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+        <div><label><span class="icon-user-name">Ваше имя:</span>
+		<input class="icon-userID" type="text" name="login" placeholder="Представьтесь, пожалуйста"></label></div>
+		<div><label><span class="icon-user-name">Ваш e-mail:</span>
+        <input class="icon-email" type="text"  name="e-mail" placeholder="Для отправки ответа"></label></div>
+		<div><label><span class="icon-user-name">Текст письма</span>
+		<textarea  name="comment" id="comment-field" rows="6" cols="73" placeholder="В свободной форме"></textarea></label></div>
+        <div><button class="login-form-btn" type="submit" title="Отправить" style="cursor:pointer">Отправить</button></div>
+      </form>
+    </div>
   </body>
 </html>

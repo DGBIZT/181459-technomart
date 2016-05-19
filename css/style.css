@@ -483,10 +483,10 @@ main {
 	text-align: center;
 	text-decoration: none;
 }
-.top-menu li:nth-child(2) a{
+.bookmark a{
 	width: 150px;
 }
-.top-menu li:nth-child(3) a{
+.basket a{
 	width: 141px;
 }	
 .top-menu a:hover {
@@ -812,7 +812,6 @@ main {
 	position: absolute;
 	top: 210px;
 	left: 297px;
-
 }
 .switch  input[type="radio"] {
 	display: none;
@@ -964,7 +963,7 @@ main {
 .slide-techno2 .switc input[type="radio"] {
 	display: none;
 }
-.slide-techno2 .switc input[type="radio"] + label {
+.switc input[type="radio"] + label {
 	display: inline-block;
 	vertical-align: top;
 	position: relative;
@@ -974,7 +973,7 @@ main {
 	padding: 0px;
 	z-index: 11;
 }
-.slide-techno2  .switc input[type="radio"] + label:before {
+.switc input[type="radio"] + label:before {
 	content: "";
 	position: absolute;
 	top: 0px;
@@ -984,7 +983,7 @@ main {
 	height: 10px;
 	border-radius: 50%;
 }
-.slide-techno2 .switc input[type="radio"]:checked + label::after {
+.switc input[type="radio"]:checked + label::after {
 	content: "";
 	position: absolute;
 	top: 1px;
@@ -2610,7 +2609,6 @@ input[type="radio"]:checked + label::after {
 	text-transform: uppercase;
 }
 /* Всплывающая форма */
-
 .modal-content {
 	display: none;
 	position: fixed;
@@ -2618,9 +2616,10 @@ input[type="radio"]:checked + label::after {
 	left: 50%;
 	width: 620px;
 	transform: translate(-50%, -50%);
-	-moz-transform: translate(-50%, -50%);
-	-webkit-transform: translate(-50%, -50%);
-	-khtml-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%); /* Для Firefox */
+	-ms-transform: translate(-50%, -50%); /* Для IE */
+	-webkit-transform: translate(-50%, -50%); /* Для Safari, Chrome, iOS */
+	-o-transform: translate(-50%, -50%); /* Для Opera */
 	border-top: 5px solid #ee3643;
 	color: #000000;
 	background: #ffffff;
@@ -2628,7 +2627,6 @@ input[type="radio"]:checked + label::after {
 	z-index: 25;
 	font-size: 18px;
 	line-height: 18px;
-
 }
 .modal-content-close {
 	position: absolute;
@@ -2709,7 +2707,6 @@ input[type="radio"]:checked + label::after {
 	margin-bottom: 30px;
 	resize: none;
 }
-
 .login-form div:nth-child(4) {
 	padding-top: 35px;
 	padding-bottom: 36px;
@@ -2726,7 +2723,6 @@ input[type="radio"]:checked + label::after {
 	font-size: 18px;
 	line-height: 18px;
 }
-
 .login-form-btn{
 	border: 0px;
 	background: #ee3643;
@@ -2739,8 +2735,6 @@ input[type="radio"]:checked + label::after {
 	color: white;
 	width: 461px;
 	outline:none;
-	
-	
 }
 /* Карта*/
 .modal-content-map {
@@ -2749,9 +2743,10 @@ input[type="radio"]:checked + label::after {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	-moz-transform: translate(-50%, -50%);
-	-webkit-transform: translate(-50%, -50%);
-	-khtml-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%); /* Для Firefox */
+	-ms-transform: translate(-50%, -50%); /* Для IE */
+	-webkit-transform: translate(-50%, -50%); /* Для Safari, Chrome, iOS */
+	-o-transform: translate(-50%, -50%); /* Для Opera */
 	width: 940px;
 	height: 447px;
 	z-index: 25;
@@ -2765,9 +2760,10 @@ input[type="radio"]:checked + label::after {
 	left: 50%;
 	width: 620px;
 	transform: translate(-50%, -50%);
-	-moz-transform: translate(-50%, -50%);
-	-webkit-transform: translate(-50%, -50%);
-	-khtml-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%); /* Для Firefox */
+	-ms-transform: translate(-50%, -50%); /* Для IE */
+	-webkit-transform: translate(-50%, -50%); /* Для Safari, Chrome, iOS */
+	-o-transform: translate(-50%, -50%); /* Для Opera */
 	border-top: 5px solid #ee3643;
 	color: #000000;
 	background: #ffffff url("img/pattern-white.jpg");
